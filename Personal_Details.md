@@ -1,216 +1,367 @@
-1. Bhaveek agrawal
-2. Job title somewhere in Cyber Security
-3. Curious, Enthusiastic, Interested
-4. Freelance 3d modeling, coding
-5. Recruiters, Agencies, Clients, Open-source communities
-6. Student, Freelancer
-7. I do 3d modeling, web development, and app development
-8. no tagline but you can suggest one
-9. Contact me, View products, Skills, Hire me, 
-10. yes i want a profile photo
-11. Links to my linkedin, github, email, sketchfab
-12. Heard about a kid who made something in python when i was in 6th grade and decided to get started myself, then tried making other things in python, webdevelopment, minecraft modding, game developing, app developing, ethical hacking.
-13. Because of its endless possiblities and my curiosity to learn and do more things
-14.  Web development, 3d modeling.
-15. i dont know what technologies i enjoy the most
-16. hackathons interest me
-17. 4 years of blender expiernce, MIT wpu certificate for doing extraordinary in their summercamp in app development and AI chatbot development
-18. Casual/Personal tone
-19. Javascript, python, java, html, css, c#, c, swift
-20. i dont know
-21. Node.js, i dont know exactly
-22. no clue
-23. AWS
-24. AI/ML, Game dev, mobile, UI/UX
-25. Game dev, 3d modeling, web dev, app dev
-26. Intermediate in each
-27. i dont know yet
-28. ( skipping to experince section )
-no company name
-no role/title
-no duration
-no responsibility
-no accomplishments in any company
-no tech in company used
-no resutls in any company
-no remove or on site work in any company
-done freelance via discord to find clients
+# CLAUDE SONNET 4.6 — MASTER PORTFOLIO PROJECT AUTOMATION SYSTEM
 
-29. MIT-wpu
-30. BCA Cyber Security
-31. Starting first year soon
-32. no clue
-33. 
-34. 
-35. Drone engineering soon
-36. no clue
-37. No resume yet
-38. Tarushagrawal5@gmail.com
-39. Freelance, Remote
-40. Gmail : Tarushagrawal5@gmail.com
-41. Yes a working Contact Form along with a login section if they want to send a form
-42. Dark mode and light mode switching allowed
-43. Minimal but also interactively rich
-44. nope
-45. Black, Dark purple
-46. none
-47. Highlights 
-48. no
-49. visitors should leave with a surprised impression over the website and impressed with the skillset
-50. Microsoft, Google, Amazon, and countries out of india in a good location with a good paycheck
-51. Web development
-52. nothing in specific
-53. I do want a custom domain name but i dont have a owned domain
-54. not one yet
-55. none
-56. i dont know what that means
-57. what does that mean?
-58. no
+You are working inside an EXISTING portfolio project.
 
-Skipping to final strategic questions
-1. They should know about my skillset, and the projects ive done they should know how to contact me 
-2. Contact me for work
-3. web development, app development, 3d modeling
-4. Build a floating AI-style assistant chat window that:
+The portfolio already contains:
+- A futuristic cyberpunk portfolio website
+- A projects section
+- Existing project cards
+- Existing GitHub links
+- Existing repositories
+- Existing project folders
 
-Accepts user questions
-Displays user messages dynamically
-Generates instant responses
-Detects intent using regex keyword matching
-Automatically scrolls to relevant website sections
-Maintains a futuristic cyber-glassmorphism appearance
-The chatbot should feel:
+Your task is to COMPLETELY REBUILD the projects ecosystem using ALL `.md` project instruction files located inside a specific folder.
 
-Modern
-Premium
-Interactive
-Minimal
-Smooth
-Intelligent
-Chat Window Requirements
-Positioning
-The chat window MUST be:
+--------------------------------------------------
+PRIMARY OBJECTIVE
+--------------------------------------------------
 
-Fixed to the bottom-right corner
-Responsive on mobile and desktop
-Always visible above the content
-Use styling similar to:
+You MUST:
 
-position: fixed;
-bottom: 20px;
-right: 20px;
-z-index: 9999;
-UI Design Requirements
-The chatbot MUST match the website theme:
+1. Scan a folder containing multiple `Project.md` files
+2. Read EVERY project instruction file
+3. Build EVERY project described
+4. Create a FULL dedicated repository for each project
+5. Push every project to GitHub
+6. Replace old projects in the portfolio website
+7. Dynamically update portfolio project cards
+8. Remove ALL previous placeholder/fake/generated projects
+9. Make the portfolio feel production-quality
 
-Black-and-white gradients
-Cyber-glassmorphism styling
-Frosted glass effect
-Transparent panels
-Blur effects
-Soft glowing borders
-Smooth hover animations
-Use ONLY:
+--------------------------------------------------
+IMPORTANT RULES
+--------------------------------------------------
 
-HTML
-CSS
-Vanilla JavaScript
-DO NOT use:
+DO NOT:
+- Leave placeholder projects
+- Leave fake GitHub links
+- Leave old demo cards
+- Leave lorem ipsum text
+- Leave incomplete repositories
+- Generate fake screenshots
+- Skip README files
 
-React
-Vue
-Tailwind
-Bootstrap
-jQuery
-External chatbot libraries
-Chat UI Components
-The chatbot should contain:
+DO:
+- Build REAL functioning projects
+- Use REAL repositories
+- Create REAL GitHub commits
+- Create REAL folder structures
+- Create polished UIs
+- Make projects actually runnable
+- Optimize projects for portfolio presentation
 
-1. Header
-Include:
+--------------------------------------------------
+FOLDER SCANNING SYSTEM
+--------------------------------------------------
 
-Bot title
-Online status indicator
-Minimize button (optional)
-Example titles:
+You MUST recursively scan the provided project instructions folder.
 
-AI Assistant
-Portfolio Bot
-Cyber Assistant
-2. Chat Messages Area
-This section should:
+Every `.md` file represents ONE FULL PROJECT.
 
-Display both user and bot messages
-Use different bubble styles
-Auto-scroll to the newest message
-Support smooth animations
-Bot messages:
+For EACH project instruction file:
 
-Left aligned
-User messages:
+1. Parse project requirements
+2. Extract:
+   - Project name
+   - Tech stack
+   - Features
+   - Architecture requirements
+   - UI style
+   - Gameplay/app mechanics
+   - Repository name
+   - Portfolio category
 
-Right aligned
-3. Input Area
-Include:
+3. Generate:
+   - Full application
+   - README.md
+   - Assets folder
+   - Proper architecture
+   - Package configuration
+   - Environment setup
+   - Git repository
 
-Text input field
-Send button
-Enter key support
-The input area should remain fixed inside the chatbot. 
-Core JavaScript Features
-The chatbot logic MUST:
+--------------------------------------------------
+EXPECTED FOLDER STRUCTURE
+--------------------------------------------------
 
-Read user input
-Append user messages to chat
-Generate instant bot responses
-Append bot messages dynamically
-Auto-scroll messages container
-Detect questions using regex keyword matching
-Regex Matching Requirements
-The chatbot MUST intelligently detect similar questions.
+Example:
 
-Do NOT only match exact phrases.
+/Projects
+    /AI-Projects
+        ai-workflow-builder.md
+        ai-interview-simulator.md
 
-Use flexible regex and keyword detection.
+    /Games
+        racing-simulator.md
+        mech-combat.md
 
-The bot should understand variations like:
+    /Apps
+        whiteboard.md
+        notes-app.md
 
-"What skills do you have?"
-"Tell me about your skills"
-"What technologies do you know?"
-"What are your projects?"
-"Tell me about yourself"
-"Who are you?"
-"What have you built?"
-"Show me your work"
-and many similar variants.
-Add smooth animations:
+Claude MUST:
+- Read ALL folders recursively
+- Detect ALL `.md` project files
+- Build ALL projects automatically
 
-Fade-in messages
-Hover transitions
-Button animations
-Smooth expand effects
-Animations should feel modern and premium.
+--------------------------------------------------
+PROJECT GENERATION REQUIREMENTS
+--------------------------------------------------
 
-Responsiveness Requirements
-The chatbot MUST work perfectly on:
+For EACH project:
 
-Desktop
-Laptop
-Tablet
-Mobile
-Ensure:
+Create:
+- Source code
+- README.md
+- Assets
+- Configuration files
+- Build scripts
+- Deployment instructions
+- Screenshots placeholders
+- Demo-ready UI
 
-No overflow issues
-Responsive width
-Proper spacing
-Mobile-friendly input field
-Accessibility Requirements
-Ensure:
+--------------------------------------------------
+REPOSITORY AUTOMATION
+--------------------------------------------------
 
-Keyboard support
-Enter key submission
-Readable contrast
-Proper focus states
+For EVERY project:
 
-NOW TURN THIS ENTIRE THING INTO A CODE SNIPPET FORMAT PROMPT FOR A intructions.md FILE FOR ANTI GRAVITY AI TO USE AND BUILD ME A WEBSITE
+1. Create a NEW GitHub repository
+2. Repository name MUST match project specification
+3. Initialize git
+4. Commit cleanly
+5. Push to GitHub
+6. Generate proper README
+7. Add project tags/topics
+
+--------------------------------------------------
+README REQUIREMENTS
+--------------------------------------------------
+
+Every README MUST include:
+
+# Project Title
+
+## Overview
+
+## Features
+
+## Screenshots
+
+## Tech Stack
+
+## Installation
+
+## Usage
+
+## Architecture
+
+## Future Improvements
+
+## Performance Notes
+
+## Author
+
+README quality MUST look professional.
+
+--------------------------------------------------
+PORTFOLIO WEBSITE UPDATE SYSTEM
+--------------------------------------------------
+
+After ALL projects are generated:
+
+Claude MUST update the portfolio website.
+
+--------------------------------------------------
+REMOVE OLD PROJECTS
+--------------------------------------------------
+
+DELETE:
+- Old placeholder projects
+- Fake enterprise projects
+- Generic demo cards
+- Existing fake repositories
+- Unrealistic descriptions
+
+Examples to REMOVE:
+- Fake analytics dashboard
+- Fake SaaS products
+- Fake internships
+- Generic boilerplate apps
+
+--------------------------------------------------
+ADD NEW PROJECTS
+--------------------------------------------------
+
+Replace ALL old cards with REAL generated projects.
+
+Each project card MUST contain:
+- Real title
+- Real GitHub link
+- Real technologies
+- Real description
+- Real category
+- Real preview image
+- Real status
+
+--------------------------------------------------
+PROJECT CARD REQUIREMENTS
+--------------------------------------------------
+
+Each project card should include:
+- Animated hover effects
+- Cyberpunk glow borders
+- Smooth transitions
+- Interactive tilt effect
+- Live demo button
+- GitHub button
+- Technology badges
+- Project complexity indicator
+
+--------------------------------------------------
+PROJECT FILTER SYSTEM
+--------------------------------------------------
+
+Update category filters dynamically.
+
+Possible categories:
+- AI
+- Multiplayer
+- Simulation
+- Racing
+- Game Development
+- Full Stack
+- Visualization
+- Cybersecurity
+- Real-Time Systems
+- Creative Coding
+- Physics
+- WebGL
+
+Filters MUST automatically adapt based on generated projects.
+
+--------------------------------------------------
+LIVE DEPLOYMENT SYSTEM
+--------------------------------------------------
+
+For EACH project:
+
+Attempt deployment using:
+- Vercel
+- Netlify
+- GitHub Pages
+- Render
+- Railway
+
+Then:
+- Add live demo links to portfolio cards
+
+--------------------------------------------------
+VISUAL QUALITY REQUIREMENTS
+--------------------------------------------------
+
+ALL generated projects MUST feel:
+- Modern
+- Production-quality
+- Highly polished
+- Recruiter impressive
+- Interactive
+- Visually premium
+
+UI style should focus on:
+- Glassmorphism
+- Cyberpunk aesthetics
+- Smooth animations
+- Real-time effects
+- Professional presentation
+
+--------------------------------------------------
+ADVANCED ENGINEERING REQUIREMENTS
+--------------------------------------------------
+
+Projects should showcase:
+- Real architecture depth
+- Optimization
+- State management
+- Real-time systems
+- Procedural systems
+- AI integration
+- Multiplayer systems
+- Physics systems
+- Rendering systems
+
+--------------------------------------------------
+CODE QUALITY REQUIREMENTS
+--------------------------------------------------
+
+ALL code MUST:
+- Be modular
+- Use scalable architecture
+- Be production-structured
+- Use comments where needed
+- Follow best practices
+
+--------------------------------------------------
+GITHUB PROFILE OPTIMIZATION
+--------------------------------------------------
+
+Ensure repositories:
+- Look active
+- Look professional
+- Have meaningful commits
+- Have organized structure
+- Have clean naming
+
+Generate:
+- Multiple commits
+- Realistic development history
+- Proper branch naming
+
+--------------------------------------------------
+PORTFOLIO PROJECT PRIORITIZATION
+--------------------------------------------------
+
+The portfolio homepage should prioritize:
+1. Most visually impressive projects
+2. Most technically advanced projects
+3. Best gameplay/simulation systems
+4. Most interactive applications
+
+The BEST projects should appear first.
+
+--------------------------------------------------
+FINAL RESULT
+--------------------------------------------------
+
+The final result should feel like:
+- A senior-level experimental developer portfolio
+- Highly technical
+- Creative
+- Unique
+- Visually stunning
+- Real and authentic
+
+The portfolio should immediately communicate:
+- Advanced engineering capability
+- Creativity
+- Systems thinking
+- Modern tooling knowledge
+- Strong UI/UX ability
+
+--------------------------------------------------
+FINAL EXECUTION ORDER
+--------------------------------------------------
+
+1. Scan all project markdown files
+2. Parse requirements
+3. Generate projects
+4. Create repositories
+5. Push repositories to GitHub
+6. Deploy projects
+7. Remove old portfolio projects
+8. Add new projects dynamically
+9. Update project filters
+10. Optimize visuals
+11. Verify all links work
+12. Ensure mobile responsiveness
+13. Ensure production-quality polish
