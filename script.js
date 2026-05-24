@@ -102,11 +102,12 @@ function updateActiveNav() {
   const el = document.getElementById('typed-text');
   if (!el) return;
   const phrases = [
-    'Full Stack Developer',
-    'Software Engineer',
-    'UI/UX Enthusiast',
-    'Problem Solver',
-    'Open Source Contributor'
+    'Web Developer',
+    '3D Artist & Blender User',
+    'Cyber Security Enthusiast',
+    'Game Developer',
+    'BCA Cyber Security Student',
+    'Self-Taught Creator'
   ];
   let phraseIdx = 0, charIdx = 0, deleting = false;
   const TYPE_SPEED = 80, DELETE_SPEED = 45, PAUSE = 1800;
@@ -290,30 +291,32 @@ if (yearEl) yearEl.textContent = new Date().getFullYear();
    CHATBOT
    ============================================================ */
 const chatbotKnowledge = {
-  skills: `Bhaveek's skills (self-taught & real):\n\n⚡ **Frontend**: HTML5, CSS3, JavaScript, React.js, TypeScript, Tailwind, HTML5 Canvas\n🔧 **Backend**: Node.js, Python, REST APIs, Firebase\n🎨 **Creative**: Blender 3D, UI/UX Design, Game Dev, CSS Animations\n🔒 **Cybersecurity**: Ethical hacking basics, Networking, Linux/Bash, CTF challenges, OSINT\n🛠 **Tools**: Git, GitHub, VS Code, Discord Bots`,
-  projects: `Bhaveek's 6 real projects (all with GitHub repos!):\n\n🎮 **Cyber Runner** — HTML5 Canvas endless runner with particles & double jump\n🤖 **NeuroChat AI** — Intent chatbot with word games & theme switching\n📊 **Pulse Analytics** — Live Chart.js dashboard with auto-refreshing metrics\n📈 **MarketMind Bot** — Simulated crypto market with signals & terminal log\n🤝 **Portfolio Assistant** — AI that navigates portfolio sections automatically\n🎨 **Neo3D Showcase** — Blender 3D gallery with tilt effects & lightbox\n\nAll on [github.com/Bhaveek08](https://github.com/Bhaveek08)`,
-  experience: `Bhaveek's real experience:\n\n🛠 **Freelance Dev & 3D Artist** (2023–Present)\nFreelance web dev, 3D modeling, UI design for clients & friends\n\n🤝 **Community Collaborator** (2022–Present)\nDiscord tools, mini-games, open source projects with online devs\n\n📚 **Self-Taught Journey** (2020–Present)\nStarted with Python in middle school — now does web dev, cyber, game dev & 3D`,
-  contact: `You can reach Bhaveek at:\n\n📧 **Email**: tarushagrawal5@gmail.com\n🐙 **GitHub**: [github.com/Bhaveek08](https://github.com/Bhaveek08)\n💼 **LinkedIn**: linkedin.com/in/bhaveek\n📍 **Location**: India 🇮🇳\n\nHe's open to **freelance**, **collabs**, and interesting **projects**!`,
-  education: `Bhaveek's education:\n\n🛡️ **BCA Cyber Security** — Starting 2025 (First year upcoming)\n📚 **12th Grade Science (PCM + CS)** — Currently completing\n🏆 Active in tech events, coding challenges & CTF competitions`,
-  certifications: `Bhaveek's certifications:\n\n• Python Fundamentals — freeCodeCamp (2023)\n• Responsive Web Design — freeCodeCamp (2023)\n• Cybersecurity Basics — Cisco Networking Academy (2024)\n• Blender 3D Fundamentals — Udemy (2023)\n• Intro to Machine Learning — Kaggle (2024)\n• JavaScript Algorithms & DS — freeCodeCamp (2024)`,
-  about: `Bhaveek is a **self-taught developer, 3D artist & cybersecurity enthusiast** from India. Currently in 12th grade, entering BCA Cyber Security. He's been coding since middle school — building games, chatbots, dashboards, and 3D art through pure curiosity and real projects.`,
-  hire: `Bhaveek is **open to work**! He's available for:\n• Freelance web/app development\n• Creative collaborations\n• Student projects & hackathons\n\nContact: tarushagrawal5@gmail.com`,
-  github: `All of Bhaveek's real projects live here:\n🐙 [github.com/Bhaveek08](https://github.com/Bhaveek08)`
+  skills: `Bhaveek's core skills include:\n• **Web Dev**: HTML5, CSS3, JavaScript, Node.js, UI Design\n• **Creative**: Blender 3D (4+ years), Game Dev (HTML5 Canvas), 3D Rendering\n• **Languages**: JavaScript, Python, Java, C, C#, Bash\n• **Tools**: Git, GitHub, VS Code, Blender, Figma, Chrome DevTools\n• **Security**: OSINT basics, ethical hacking concepts, network security fundamentals`,
+  projects: `Here are Bhaveek's 6 real projects:\n\n1. **⚡ Cyber Runner** — HTML5 Canvas endless runner game with particles & neon UI\n2. **🤖 NeuroChat AI** — Chatbot with regex intent detection & dark/light themes\n3. **📊 Pulse Analytics** — Animated analytics dashboard using Chart.js\n4. **📈 MarketMind Bot** — Simulated crypto/stock terminal in cyberpunk style\n5. **🤖 Portfolio Assistant** — Drop-in floating AI widget for portfolio sites\n6. **🎨 Neo3D Showcase** — Interactive 3D art gallery for Blender renders\n\n👉 GitHub: [github.com/Bhaveek08](https://github.com/Bhaveek08)`,
+  experience: `Bhaveek's authentic experience:\n\n• **Freelance Developer & 3D Artist** (2023–Present) — Web dev, UI design, Blender projects\n• **Community Project Collaborator** (2022–Present) — Discord tools, mini-games, open source\n• **Self-Taught Developer Journey** (2020–Present) — Python, game dev, Minecraft mods, cybersecurity`,
+  contact: `You can reach Bhaveek at:\n\n📧 **Email**: tarushagrawal5@gmail.com\n🐙 **GitHub**: [github.com/Bhaveek08](https://github.com/Bhaveek08)\n📍 **Location**: India 🇮🇳\n\nBhaveek is open to collaborations and freelance projects!`,
+  education: `Bhaveek's education:\n\n🎓 **BCA in Cyber Security** — MIT-WPU (MIT World Peace University, Pune) — Starting 2025 (1st Year)\n📚 **12th Grade (Science/PCM + Computer Science)** — Currently Completing\n📜 MIT-WPU Summer Camp Certificates: App Development & AI Chatbot Development (2024)`,
+  certifications: `Bhaveek's real certifications:\n\n• MIT-WPU Summer Camp — App Development (2024)\n• MIT-WPU Summer Camp — AI Chatbot Dev (2024)\n• Responsive Web Design — freeCodeCamp (2023)\n• Intro to Cyber Security — Cisco Networking Academy (2023)\n• Python Basics — Kaggle/Coursera (2022)\n• JavaScript Algorithms & Data Structures — freeCodeCamp (2023)`,
+  about: `Bhaveek Agrawal is a self-taught developer and 3D artist from India. He's currently in 12th grade and soon joining **MIT-WPU for BCA in Cyber Security**. He started coding in middle school after discovering Python, and has since built games, chatbots, analytics dashboards, 3D models, and security tools — all through curiosity and hands-on experimentation.`,
+  hire: `Bhaveek is **open to collaborate**! He's available for:\n• Freelance web or UI projects\n• Creative tech collaborations\n• Community open-source contributions\n\nContact: tarushagrawal5@gmail.com`,
+  blender: `Bhaveek has **4+ years of Blender experience**! He creates:\n• Cyberpunk city environments\n• Hard-surface mechanical models\n• Abstract geometry node art\n• Character designs & renders\n\nCheck out Neo3D Showcase for his work!`,
+  github: `Explore Bhaveek's code on:\n🐙 [github.com/Bhaveek08](https://github.com/Bhaveek08)`
 };
 
 const chatbotResponses = [
   { keys: ['skill', 'know', 'tech', 'stack', 'programming', 'language', 'frontend', 'backend', 'database'], response: chatbotKnowledge.skills },
-  { keys: ['project', 'built', 'work', 'portfolio', 'github', 'app', 'application', 'website'], response: chatbotKnowledge.projects },
-  { keys: ['experience', 'job', 'career', 'work history', 'intern', 'company', 'employer'], response: chatbotKnowledge.experience },
+  { keys: ['project', 'built', 'work', 'portfolio', 'app', 'application', 'website', 'game', 'runner', 'chat', 'dashboard', 'market', 'showcase'], response: chatbotKnowledge.projects },
+  { keys: ['experience', 'job', 'career', 'work history', 'intern', 'company', 'freelance', 'journey'], response: chatbotKnowledge.experience },
   { keys: ['contact', 'email', 'reach', 'hire', 'message', 'get in touch'], response: chatbotKnowledge.contact },
-  { keys: ['education', 'college', 'degree', 'university', 'study', 'qualification', 'school', 'gpa'], response: chatbotKnowledge.education },
-  { keys: ['certificate', 'certification', 'credential', 'aws', 'azure', 'google cloud', 'course', 'coursera'], response: chatbotKnowledge.certifications },
-  { keys: ['about', 'who', 'bhaveek', 'tell me', 'yourself', 'introduce', 'bio'], response: chatbotKnowledge.about },
-  { keys: ['hire', 'available', 'opportunity', 'job', 'freelance', 'open to work', 'recruit'], response: chatbotKnowledge.hire },
+  { keys: ['education', 'college', 'degree', 'university', 'study', 'qualification', 'school', 'bca', 'mit-wpu', 'cyber security course', 'pune'], response: chatbotKnowledge.education },
+  { keys: ['certificate', 'certification', 'credential', 'mit-wpu', 'cisco', 'freecodecamp', 'kaggle', 'course', 'achievement'], response: chatbotKnowledge.certifications },
+  { keys: ['about', 'who', 'bhaveek', 'tell me', 'yourself', 'introduce', 'bio', 'background'], response: chatbotKnowledge.about },
+  { keys: ['hire', 'available', 'opportunity', 'open to work', 'collab', 'collaborate', 'recruit'], response: chatbotKnowledge.hire },
+  { keys: ['blender', '3d', 'model', 'render', 'art', 'neo3d', 'design'], response: chatbotKnowledge.blender },
   { keys: ['github', 'repo', 'code', 'open source', 'repository'], response: chatbotKnowledge.github },
-  { keys: ['hello', 'hi', 'hey', 'greet', 'good morning', 'good evening', 'howdy'], response: `Hi there! 👋 I'm Bhaveek's AI assistant. I can tell you all about his skills, projects, experience, certifications, and more. What would you like to know?` },
+  { keys: ['hello', 'hi', 'hey', 'greet', 'good morning', 'good evening', 'howdy'], response: `Hi there! 👋 I'm Bhaveek's AI assistant. Ask me about his projects, skills, education (BCA Cyber Security at MIT-WPU!), or how to contact him!` },
   { keys: ['thank', 'thanks', 'appreciate', 'awesome', 'great', 'cool', 'nice'], response: `You're welcome! 😊 Is there anything else you'd like to know about Bhaveek?` },
-  { keys: ['bye', 'goodbye', 'see you', 'later', 'cya'], response: `Goodbye! 👋 Feel free to come back anytime. Have a great day!` }
+  { keys: ['bye', 'goodbye', 'see you', 'later', 'cya'], response: `Goodbye! 👋 Feel free to come back anytime. Keep building cool things!` }
 ];
 
 function getChatbotReply(userMsg) {

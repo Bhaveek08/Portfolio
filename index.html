@@ -3,28 +3,37 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Bhaveek — Student Developer, 3D Artist & Cybersecurity Enthusiast. Explore real projects, skills, and creative work." />
-  <meta name="keywords" content="Bhaveek, Bhaveek08, Student Developer, Cybersecurity, 3D Artist, Blender, Web Developer, Portfolio" />
-  <meta name="author" content="Bhaveek" />
-  <title>Bhaveek | Developer Portfolio</title>
+  <meta name="description" content="Bhaveek Agrawal - Developer, 3D Artist &amp; Cyber Security enthusiast. Web development, game dev, Blender, and ethical hacking." />
+  <meta name="keywords" content="Bhaveek Agrawal, Bhaveek08, Web Developer, 3D Artist, Cyber Security, Game Developer, Portfolio, Blender, JavaScript" />
+  <meta name="author" content="Bhaveek Agrawal" />
+  <meta property="og:title" content="Bhaveek Agrawal | Developer &amp; 3D Artist" />
+  <meta property="og:description" content="Developer · 3D Artist · Cyber Security Enthusiast · Game Dev" />
+  <meta property="og:type" content="website" />
+  <meta name="robots" content="index, follow" />
+  <title>Bhaveek Agrawal | Portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Fira+Code:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Fira+Code:wght@300;400;500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
   <link rel="stylesheet" href="style.css" />
   <script src="security.js" defer></script>
 </head>
 <body>
+  <!-- Cursor Glow -->
   <div id="cursor-glow"></div>
+
+  <!-- Background Particles -->
   <div id="particles-bg"></div>
 
-  <!-- NAV -->
+  <!-- Navigation -->
   <nav id="navbar">
     <div class="nav-container">
-      <div class="nav-logo" onclick="scrollTo({top:0,behavior:'smooth'})">
-        <span class="logo-bracket">&lt;</span><span class="logo-name">Bhaveek</span><span class="logo-bracket">/&gt;</span>
+      <div class="nav-logo">
+        <span class="logo-bracket">&lt;</span>
+        <span class="logo-name">Bhaveek</span>
+        <span class="logo-bracket">/&gt;</span>
       </div>
-      <button class="hamburger" id="hamburger" aria-label="Menu">
+      <button class="hamburger" id="hamburger" aria-label="Toggle Navigation">
         <span></span><span></span><span></span>
       </button>
       <ul class="nav-links" id="nav-links">
@@ -34,37 +43,52 @@
         <li><a href="#projects" class="nav-link">Projects</a></li>
         <li><a href="#experience" class="nav-link">Experience</a></li>
         <li><a href="#education" class="nav-link">Education</a></li>
-        <li><a href="#certifications" class="nav-link">Certs</a></li>
+        <li><a href="#certifications" class="nav-link">Certifications</a></li>
         <li><a href="#contact" class="nav-link">Contact</a></li>
         <li><a href="resume.pdf" class="btn-resume" download>Resume</a></li>
       </ul>
     </div>
   </nav>
 
-  <!-- HERO -->
+  <!-- Hero Section -->
   <section id="home" class="hero-section">
     <div class="hero-content">
       <div class="hero-badge">
-        <span class="badge-dot"></span>12th Grade → BCA Cyber Security
+        <span class="badge-dot"></span>
+        Building Digital Experiences
       </div>
-      <div class="hero-greeting">Hey there, I'm</div>
-      <h1 class="hero-name"><span class="name-first">Bhaveek</span></h1>
+      <div class="hero-greeting">Hello, I'm</div>
+      <h1 class="hero-name">
+        <span class="name-first">Bhaveek Agrawal</span>
+      </h1>
       <div class="hero-title">
-        <span class="typed-text" id="typed-text"></span><span class="typed-cursor">|</span>
+        <span class="typed-text" id="typed-text"></span>
+        <span class="typed-cursor">|</span>
       </div>
       <p class="hero-description">
-        Self-taught developer, 3D artist & cybersecurity enthusiast. I build real things —
-        games, AI tools, dashboards — driven by curiosity and a love for creating.
+        Curiosity turned into creation. I build functional web experiences, games, 3D art, and explore the landscape of cybersecurity.
       </p>
       <div class="hero-actions">
-        <a href="#projects" class="btn-primary"><i class="fas fa-rocket"></i> See My Work</a>
-        <a href="#contact" class="btn-secondary"><i class="fas fa-paper-plane"></i> Get In Touch</a>
+        <a href="#projects" class="btn-primary">
+          <i class="fas fa-rocket"></i> View My Work
+        </a>
+        <a href="#contact" class="btn-secondary">
+          <i class="fas fa-paper-plane"></i> Get In Touch
+        </a>
       </div>
       <div class="hero-socials">
-        <a href="https://github.com/Bhaveek08" target="_blank" rel="noopener" aria-label="GitHub" class="social-icon"><i class="fab fa-github"></i></a>
-        <a href="mailto:tarushagrawal5@gmail.com" aria-label="Email" class="social-icon"><i class="fas fa-envelope"></i></a>
-        <a href="https://linkedin.com/in/bhaveek" target="_blank" rel="noopener" aria-label="LinkedIn" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
-        <a href="https://twitter.com/bhaveek08" target="_blank" rel="noopener" aria-label="Twitter" class="social-icon"><i class="fab fa-x-twitter"></i></a>
+        <a href="https://github.com/Bhaveek08" target="_blank" rel="noopener" aria-label="GitHub" class="social-icon">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="mailto:tarushagrawal5@gmail.com" aria-label="Email" class="social-icon">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a href="https://linkedin.com/in/bhaveek" target="_blank" rel="noopener" aria-label="LinkedIn" class="social-icon">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://twitter.com/bhaveek08" target="_blank" rel="noopener" aria-label="Twitter" class="social-icon">
+          <i class="fab fa-x-twitter"></i>
+        </a>
       </div>
     </div>
     <div class="hero-visual">
@@ -72,927 +96,478 @@
         <div class="avatar-ring ring-1"></div>
         <div class="avatar-ring ring-2"></div>
         <div class="avatar-ring ring-3"></div>
-        <div class="avatar-image"><i class="fas fa-user-astronaut avatar-icon"></i></div>
-        <div class="floating-badge badge-top-right"><i class="fas fa-shield-halved"></i> Cyber</div>
-        <div class="floating-badge badge-bottom-left"><i class="fas fa-cube"></i> 3D Art</div>
+        <div class="avatar-image">
+          <i class="fas fa-user-tie avatar-icon"></i>
+        </div>
+        <div class="floating-badge badge-top-right">
+          <i class="fas fa-shield-alt"></i> Cyber
+        </div>
+        <div class="floating-badge badge-bottom-left">
+          <i class="fas fa-cube"></i> 3D Artist
+        </div>
       </div>
     </div>
     <div class="scroll-indicator">
-      <div class="scroll-mouse"><div class="scroll-wheel"></div></div>
-      <span>Scroll</span>
+      <div class="scroll-mouse">
+        <div class="scroll-wheel"></div>
+      </div>
+      <span>Scroll Down</span>
     </div>
   </section>
 
-  <!-- ABOUT -->
+  <!-- About Section -->
   <section id="about" class="section">
     <div class="container">
-      <div class="section-header reveal">
+      <div class="section-header">
         <span class="section-label">Who I Am</span>
         <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
-        <p class="section-subtitle">A curious developer who learns by building — not just reading.</p>
+        <p class="section-subtitle">Curious, creative, and always coding — building the bridge between logic and imagination</p>
       </div>
       <div class="about-content">
-        <div class="about-image-wrapper reveal">
+        <div class="about-image-wrapper">
           <div class="about-image-frame">
-            <div class="about-avatar"><i class="fas fa-user-astronaut"></i></div>
+            <div class="about-avatar">
+              <i class="fas fa-user-tie"></i>
+            </div>
             <div class="about-image-glow"></div>
           </div>
           <div class="about-stats">
-            <div class="stat-card"><span class="stat-number" data-target="6">0</span><span class="stat-symbol">+</span><span class="stat-label">Projects</span></div>
-            <div class="stat-card"><span class="stat-number" data-target="4">0</span><span class="stat-symbol">+</span><span class="stat-label">Years Coding</span></div>
-            <div class="stat-card"><span class="stat-number" data-target="5">0</span><span class="stat-symbol">+</span><span class="stat-label">Certifications</span></div>
-            <div class="stat-card"><span class="stat-number" data-target="100">0</span><span class="stat-symbol">%</span><span class="stat-label">Passion</span></div>
+            <div class="stat-card">
+              <span class="stat-number" data-target="5">0</span><span class="stat-symbol">+</span>
+              <span class="stat-label">Years of Curiosity</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number" data-target="4">0</span><span class="stat-symbol">+</span>
+              <span class="stat-label">Years in Blender</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number" data-target="10">0</span><span class="stat-symbol">+</span>
+              <span class="stat-label">Projects</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number" data-target="100">0</span><span class="stat-symbol">%</span>
+              <span class="stat-label">Self-Taught</span>
+            </div>
           </div>
         </div>
-        <div class="about-text reveal">
-          <h3 class="about-heading">Building things <span class="gradient-text">from scratch, for real</span></h3>
+        <div class="about-text">
+          <h3 class="about-heading">Curiosity turned into <span class="gradient-text">creation</span></h3>
           <p class="about-paragraph">
-            I'm <strong>Bhaveek</strong> — a self-taught developer currently in 12th grade, entering BCA Cyber Security.
-            I discovered programming in middle school and haven't stopped since.
+            I'm <strong>Bhaveek Agrawal</strong>, a self-taught developer and 3D artist. My journey began in middle school, sparked by a fascination with how Python scripts could solve real-world problems.
           </p>
           <p class="about-paragraph">
-            I've built games with HTML5 Canvas, designed 3D environments in Blender, crafted AI chatbots,
-            and explored ethical hacking — all driven by genuine curiosity, not coursework.
+            Since then, I've explored a diverse landscape of technology, including web development, game mechanics in HTML5/Canvas, and 3D modeling in Blender. My focus is on creating clean, functional interfaces and immersive experiences.
           </p>
           <p class="about-paragraph">
-            I work on freelance projects for friends and online clients, collaborate with developers in communities,
-            and constantly push my limits with new experiments. Every project teaches me something real.
+            Currently, I am diving deep into the foundations of Cybersecurity to understand how to build secure digital systems. I thrive on challenges that force me to break, build, and optimize my code.
           </p>
           <div class="about-highlights">
-            <div class="highlight-item"><i class="fas fa-map-marker-alt"></i><span>India 🇮🇳</span></div>
-            <div class="highlight-item"><i class="fas fa-graduation-cap"></i><span>12th Grade → BCA Cyber Security</span></div>
-            <div class="highlight-item"><i class="fas fa-cube"></i><span>Blender 3D Artist</span></div>
-            <div class="highlight-item"><i class="fas fa-shield-halved"></i><span>Cybersecurity Enthusiast</span></div>
+            <div class="highlight-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>India 🇮🇳</span>
+            </div>
+            <div class="highlight-item">
+              <i class="fas fa-graduation-cap"></i>
+              <span>BCA Cyber Security — MIT-WPU (Upcoming)</span>
+            </div>
+            <div class="highlight-item">
+              <i class="fas fa-cube"></i>
+              <span>3D Artist &amp; Game Modder</span>
+            </div>
+            <div class="highlight-item">
+              <i class="fas fa-envelope"></i>
+              <span>tarushagrawal5@gmail.com</span>
+            </div>
           </div>
-          <a href="resume.pdf" class="btn-primary" download><i class="fas fa-download"></i> Download Resume</a>
+          <a href="resume.pdf" class="btn-primary" download>
+            <i class="fas fa-download"></i> Download Resume
+          </a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- SKILLS -->
+  <!-- Skills Section -->
   <section id="skills" class="section section-alt">
     <div class="container">
-      <div class="section-header reveal">
+      <div class="section-header">
         <span class="section-label">What I Know</span>
         <h2 class="section-title">My <span class="gradient-text">Skills</span></h2>
-        <p class="section-subtitle">Built through real projects, not just tutorials.</p>
+        <p class="section-subtitle">Real-world stack driven by curiosity and hands-on experimentation</p>
       </div>
       <div class="skills-tabs">
-        <button class="skill-tab active" data-tab="frontend" id="tab-frontend">Frontend</button>
+        <button class="skill-tab active" data-tab="frontend" id="tab-frontend">Web Dev</button>
         <button class="skill-tab" data-tab="backend" id="tab-backend">Backend</button>
         <button class="skill-tab" data-tab="creative" id="tab-creative">Creative</button>
-        <button class="skill-tab" data-tab="cyber" id="tab-cyber">Cybersecurity</button>
         <button class="skill-tab" data-tab="tools" id="tab-tools">Tools</button>
+        <button class="skill-tab" data-tab="languages" id="tab-languages">Languages</button>
       </div>
       <div class="skills-content">
         <div class="skill-panel active" data-panel="frontend" id="panel-frontend">
           <div class="skills-grid">
-            <div class="skill-card reveal"><div class="skill-icon" style="color:#E34F26"><i class="fab fa-html5"></i></div><span>HTML5</span><div class="skill-bar"><div class="skill-fill" data-width="92"></div></div></div>
-            <div class="skill-card reveal"><div class="skill-icon" style="color:#1572B6"><i class="fab fa-css3-alt"></i></div><span>CSS3</span><div class="skill-bar"><div class="skill-fill" data-width="88"></div></div></div>
-            <div class="skill-card reveal"><div class="skill-icon" style="color:#F7DF1E"><i class="fab fa-js-square"></i></div><span>JavaScript</span><div class="skill-bar"><div class="skill-fill" data-width="85"></div></div></div>
-            <div class="skill-card reveal"><div class="skill-icon" style="color:#61DAFB"><i class="fab fa-react"></i></div><span>React.js</span><div class="skill-bar"><div class="skill-fill" data-width="70"></div></div></div>
-            <div class="skill-card reveal"><div class="skill-icon" style="color:#38B2AC"><i class="fas fa-palette"></i></div><span>Tailwind CSS</span><div class="skill-bar"><div class="skill-fill" data-width="75"></div></div></div>
-            <div class="skill-card reveal"><div class="skill-icon" style="color:#FF4500"><i class="fas fa-gamepad"></i></div><span>HTML5 Canvas</span><div class="skill-bar"><div class="skill-fill" data-width="80"></div></div></div>
+            <div class="skill-card"><div class="skill-icon" style="color:#E34F26"><i class="fab fa-html5"></i></div><span>HTML5</span></div>
+            <div class="skill-card"><div class="skill-icon" style="color:#1572B6"><i class="fab fa-css3-alt"></i></div><span>CSS3</span></div>
+            <div class="skill-card"><div class="skill-icon" style="color:#F7DF1E"><i class="fab fa-js-square"></i></div><span>JavaScript</span></div>
+            <div class="skill-card"><div class="skill-icon" style="color:#06b6d4"><i class="fas fa-mobile-alt"></i></div><span>Responsive Web</span></div>
+            <div class="skill-card"><div class="skill-icon" style="color:#a855f7"><i class="fas fa-magic"></i></div><span>UI Animations</span></div>
+            <div class="skill-card"><div class="skill-icon" style="color:#f59e0b"><i class="fas fa-code"></i></div><span>DOM Scripting</span></div>
           </div>
         </div>
         <div class="skill-panel" data-panel="backend" id="panel-backend">
           <div class="skills-grid">
-            <div class="skill-card reveal"><div class="skill-icon" style="color:#339933"><i class="fab fa-node-js"></i></div><span>Node.js</span><div class="skill-bar"><div class="skill-fill" data-width="65"></div></div></div>
-            <div class="skill-card reveal"><div class="skill-icon" style="color:#3776AB"><i class="fab fa-python"></i></div><span>Python</span><div class="skill-bar"><div class="skill-fill" data-width="82"></div></div></div>
-            <div class="skill-card reveal"><div class="skill-icon" style="color:#47A248"><i class="fas fa-database"></i></div><span>MongoDB</span><div class="skill-bar"><div class="skill-fill" data-width="60"></div></div></div>
-            <div class="skill-card reveal"><div class="skill-icon" style="color:#CC342D"><i class="fas fa-plug"></i></div><span>REST APIs</span><div class="skill-bar"><div class="skill-fill" data-width="72"></div></div></div>
-            <div class="skill-card reveal"><div class="skill-icon" style="color:#FF9900"><i class="fas fa-fire"></i></div><span>Firebase</span><div class="skill-bar"><div class="skill-fill" data-width="65"></div></div></div>
+            <div class="skill-card"><div class="skill-icon" style="color:#339933"><i class="fab fa-node-js"></i></div><span>Node.js</span></div>
+            <div class="skill-card"><div class="skill-icon" style="color:#3776AB"><i class="fab fa-python"></i></div><span>Python</span></div>
+            <div class="skill-card"><div class="skill-icon" style="color:#FF9900"><i class="fas fa-fire"></i></div><span>Firebase Auth</span></div>
+            <div class="skill-card"><div class="skill-icon" style="color:#CC342D"><i class="fas fa-plug"></i></div><span>RESTful APIs</span></div>
+            <div class="skill-card"><div class="skill-icon" style="color:#47A248"><i class="fas fa-database"></i></div><span>JSON Handling</span></div>
+            <div class="skill-card"><div class="skill-icon" style="color:#5e5e5e"><i class="fas fa-server"></i></div><span>Scripting</span></div>
           </div>
         </div>
         <div class="skill-panel" data-panel="creative" id="panel-creative">
           <div class="skills-grid">
-            <div class="skill-card reveal"><div class="skill-icon" style="color:#E87D0D"><i class="fas fa-cube"></i></div><span>Blender 3D</span><div class="skill-bar"><div class="skill-fill" data-width="78"></div></div></div>
-            <div class="skill-card reveal"><div class="skill-icon" style="color:#a855f7"><i class="fas fa-paint-brush"></i></div><span>UI/UX Design</span><div class="skill-bar"><div class="skill-fill" data-width="72"></div></div></div>
-            <div class="skill-card reveal"><div class="skill-icon" style="color:#ff6b6b"><i class="fas fa-gamepad"></i></div><span>Game Dev</span><div class="skill-bar"><div class="skill-fill" data-width="70"></div></div></div>
-            <div class="skill-card reveal"><div class="skill-icon" style="color:#06b6d4"><i class="fas fa-film"></i></div><span>Animation</span><div class="skill-bar"><div class="skill-fill" data-width="65"></div></div></div>
-          </div>
-        </div>
-        <div class="skill-panel" data-panel="cyber" id="panel-cyber">
-          <div class="skills-grid">
-            <div class="skill-card reveal"><div class="skill-icon" style="color:#f43f5e"><i class="fas fa-shield-halved"></i></div><span>Ethical Hacking</span><div class="skill-bar"><div class="skill-fill" data-width="55"></div></div></div>
-            <div class="skill-card reveal"><div class="skill-icon" style="color:#06b6d4"><i class="fas fa-network-wired"></i></div><span>Networking</span><div class="skill-bar"><div class="skill-fill" data-width="60"></div></div></div>
-            <div class="skill-card reveal"><div class="skill-icon" style="color:#22d974"><i class="fas fa-terminal"></i></div><span>Linux / Bash</span><div class="skill-bar"><div class="skill-fill" data-width="68"></div></div></div>
-            <div class="skill-card reveal"><div class="skill-icon" style="color:#fbbf24"><i class="fas fa-bug"></i></div><span>CTF Challenges</span><div class="skill-bar"><div class="skill-fill" data-width="50"></div></div></div>
-            <div class="skill-card reveal"><div class="skill-icon" style="color:#a855f7"><i class="fas fa-lock"></i></div><span>OSINT Basics</span><div class="skill-bar"><div class="skill-fill" data-width="52"></div></div></div>
+            <div class="skill-card"><div class="skill-icon" style="color:#EA7600"><i class="fas fa-cube"></i></div><span>Blender 3D</span></div>
+            <div class="skill-card"><div class="skill-icon" style="color:#a855f7"><i class="fas fa-gamepad"></i></div><span>HTML5 Canvas</span></div>
+            <div class="skill-card"><div class="skill-icon" style="color:#06b6d4"><i class="fas fa-film"></i></div><span>3D Rendering</span></div>
+            <div class="skill-card"><div class="skill-icon" style="color:#4ade80"><i class="fas fa-palette"></i></div><span>UI Design</span></div>
+            <div class="skill-card"><div class="skill-icon" style="color:#f87171"><i class="fas fa-shield-alt"></i></div><span>OSINT &amp; Hacking</span></div>
+            <div class="skill-card"><div class="skill-icon" style="color:#f59e0b"><i class="fas fa-robot"></i></div><span>AI Prompting</span></div>
           </div>
         </div>
         <div class="skill-panel" data-panel="tools" id="panel-tools">
           <div class="skills-grid">
-            <div class="skill-card reveal"><div class="skill-icon" style="color:#F05032"><i class="fab fa-git-alt"></i></div><span>Git</span><div class="skill-bar"><div class="skill-fill" data-width="82"></div></div></div>
-            <div class="skill-card reveal"><div class="skill-icon" style="color:#181717"><i class="fab fa-github"></i></div><span>GitHub</span><div class="skill-bar"><div class="skill-fill" data-width="85"></div></div></div>
-            <div class="skill-card reveal"><div class="skill-icon" style="color:#007ACC"><i class="fas fa-code"></i></div><span>VS Code</span><div class="skill-bar"><div class="skill-fill" data-width="90"></div></div></div>
-            <div class="skill-card reveal"><div class="skill-icon" style="color:#4ade80"><i class="fab fa-discord"></i></div><span>Discord Bots</span><div class="skill-bar"><div class="skill-fill" data-width="65"></div></div></div>
+            <div class="skill-card"><div class="skill-icon" style="color:#F05032"><i class="fab fa-git-alt"></i></div><span>Git / GitHub</span></div>
+            <div class="skill-card"><div class="skill-icon" style="color:#181717"><i class="fab fa-github"></i></div><span>VS Code</span></div>
+            <div class="skill-card"><div class="skill-icon" style="color:#EA7600"><i class="fas fa-cube"></i></div><span>Blender</span></div>
+            <div class="skill-card"><div class="skill-icon" style="color:#009639"><i class="fas fa-terminal"></i></div><span>Linux Terminal</span></div>
+            <div class="skill-card"><div class="skill-icon" style="color:#a855f7"><i class="fas fa-pen"></i></div><span>Figma</span></div>
+            <div class="skill-card"><div class="skill-icon" style="color:#06b6d4"><i class="fas fa-laptop-code"></i></div><span>Chrome DevTools</span></div>
+          </div>
+        </div>
+        <div class="skill-panel" data-panel="languages" id="panel-languages">
+          <div class="skills-grid">
+            <div class="skill-card"><div class="skill-icon" style="color:#F7DF1E"><i class="fab fa-js"></i></div><span>JavaScript</span></div>
+            <div class="skill-card"><div class="skill-icon" style="color:#3776AB"><i class="fab fa-python"></i></div><span>Python</span></div>
+            <div class="skill-card"><div class="skill-icon" style="color:#ED8B00"><i class="fab fa-java"></i></div><span>Java</span></div>
+            <div class="skill-card"><div class="skill-icon" style="color:#00599C"><i class="fas fa-code"></i></div><span>C</span></div>
+            <div class="skill-card"><div class="skill-icon" style="color:#7B42BC"><i class="fas fa-hashtag"></i></div><span>C#</span></div>
+            <div class="skill-card"><div class="skill-icon" style="color:#ff2d55"><i class="fas fa-keyboard"></i></div><span>Bash Scripting</span></div>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- PROJECTS -->
+  <!-- Projects Section -->
   <section id="projects" class="section">
     <div class="container">
-      <div class="section-header reveal">
+      <div class="section-header">
         <span class="section-label">What I've Built</span>
-        <h2 class="section-title">Real <span class="gradient-text">Projects</span></h2>
-        <p class="section-subtitle">Every project here is real, functional, and has its own GitHub repository.</p>
-      </div>
-      <div class="projects-filter">
-        <button class="filter-btn active" data-filter="all" id="filter-all">All</button>
-        <button class="filter-btn" data-filter="game" id="filter-game">Game Dev</button>
-        <button class="filter-btn" data-filter="ai" id="filter-ai">AI/ML</button>
-        <button class="filter-btn" data-filter="analytics" id="filter-analytics">Analytics</button>
-        <button class="filter-btn" data-filter="automation" id="filter-automation">Automation</button>
-        <button class="filter-btn" data-filter="design" id="filter-design">3D Design</button>
+        <h2 class="section-title">My <span class="gradient-text">Projects</span></h2>
+        <p class="section-subtitle">Real-world applications of my learning</p>
       </div>
       <div class="projects-grid" id="projects-grid">
-
-        <!-- Project 1: Cyber Runner -->
-        <div class="project-card" data-category="game">
+        <div class="project-card">
           <div class="project-image">
-            <div class="project-placeholder" style="background:linear-gradient(135deg,#050a0e,#0d1f2d,#1a0533);">
-              <i class="fas fa-gamepad" style="color:#00ffff;text-shadow:0 0 20px #00ffff"></i>
-            </div>
-            <div class="project-overlay">
-              <a href="https://github.com/Bhaveek08/cyber-runner-game" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
-              <a href="projects/cyber-runner-game/index.html" target="_blank" class="project-link"><i class="fas fa-play"></i></a>
+            <div class="project-placeholder" style="background: linear-gradient(135deg, #1e1b4b 0%, #4c1d95 100%);">
+              <i class="fas fa-gamepad" style="color:#c084fc"></i>
             </div>
           </div>
           <div class="project-info">
-            <div class="project-tags">
-              <span class="tag">HTML5 Canvas</span><span class="tag">JavaScript</span><span class="tag">CSS3</span>
-            </div>
             <h3 class="project-title">Cyber Runner</h3>
-            <p class="project-desc">A futuristic endless runner game with double jump, particle effects, lives system, and difficulty scaling. Built entirely in vanilla JS with a neon cyberpunk aesthetic.</p>
+            <p class="project-desc">HTML5 Canvas endless runner with procedural obstacle generation and neon aesthetic.</p>
             <div class="project-footer">
-              <span class="project-year"><i class="far fa-calendar"></i> 2025</span>
-              <div class="project-links">
-                <a href="https://github.com/Bhaveek08/cyber-runner-game" target="_blank"><i class="fab fa-github"></i> Code</a>
-                <a href="projects/cyber-runner-game/index.html" target="_blank"><i class="fas fa-play"></i> Play</a>
-              </div>
+              <a href="https://github.com/Bhaveek08" target="_blank">View on GitHub</a>
             </div>
           </div>
         </div>
-
-        <!-- Project 2: NeuroChat AI -->
-        <div class="project-card" data-category="ai">
+        <div class="project-card">
           <div class="project-image">
-            <div class="project-placeholder" style="background:linear-gradient(135deg,#0d0221,#1a0533,#3c096c);">
-              <i class="fas fa-robot" style="color:#a855f7;text-shadow:0 0 20px #a855f7"></i>
-            </div>
-            <div class="project-overlay">
-              <a href="https://github.com/Bhaveek08/neurochat-ai" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
-              <a href="projects/neurochat-ai/index.html" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+            <div class="project-placeholder" style="background: linear-gradient(135deg, #064e3b 0%, #065f46 100%);">
+              <i class="fas fa-robot" style="color:#4ade80"></i>
             </div>
           </div>
           <div class="project-info">
-            <div class="project-tags">
-              <span class="tag">JavaScript</span><span class="tag">NLP</span><span class="tag">CSS</span>
-            </div>
-            <h3 class="project-title">NeuroChat AI</h3>
-            <p class="project-desc">Intent-based AI chatbot with 20+ conversation patterns, a word guessing game, theme switching, math evaluation, and smooth typing animations.</p>
+            <h3 class="project-title">NeuroChat</h3>
+            <p class="project-desc">Rule-based AI chatbot with intent detection, custom animations, and export functionality.</p>
             <div class="project-footer">
-              <span class="project-year"><i class="far fa-calendar"></i> 2025</span>
-              <div class="project-links">
-                <a href="https://github.com/Bhaveek08/neurochat-ai" target="_blank"><i class="fab fa-github"></i> Code</a>
-                <a href="projects/neurochat-ai/index.html" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a>
-              </div>
+              <a href="https://github.com/Bhaveek08" target="_blank">View on GitHub</a>
             </div>
           </div>
         </div>
-
-        <!-- Project 3: Pulse Analytics -->
-        <div class="project-card" data-category="analytics">
+        <div class="project-card">
           <div class="project-image">
-            <div class="project-placeholder" style="background:linear-gradient(135deg,#030712,#1e1b4b,#312e81);">
-              <i class="fas fa-chart-line" style="color:#6366f1;text-shadow:0 0 20px #6366f1"></i>
-            </div>
-            <div class="project-overlay">
-              <a href="https://github.com/Bhaveek08/pulse-analytics-dashboard" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
-              <a href="projects/pulse-analytics-dashboard/index.html" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+            <div class="project-placeholder" style="background: linear-gradient(135deg, #1e3a5f 0%, #1e40af 100%);">
+              <i class="fas fa-chart-line" style="color:#60a5fa"></i>
             </div>
           </div>
           <div class="project-info">
-            <div class="project-tags">
-              <span class="tag">Chart.js</span><span class="tag">JavaScript</span><span class="tag">CSS Grid</span>
-            </div>
-            <h3 class="project-title">Pulse Analytics</h3>
-            <p class="project-desc">Real-time analytics dashboard with animated line, bar, and donut charts, auto-refreshing metrics, product table, and a clean sidebar navigation.</p>
+            <h3 class="project-title">Pulse Dashboard</h3>
+            <p class="project-desc">Responsive metrics dashboard using Chart.js to visualize simulated user data.</p>
             <div class="project-footer">
-              <span class="project-year"><i class="far fa-calendar"></i> 2025</span>
-              <div class="project-links">
-                <a href="https://github.com/Bhaveek08/pulse-analytics-dashboard" target="_blank"><i class="fab fa-github"></i> Code</a>
-                <a href="projects/pulse-analytics-dashboard/index.html" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a>
-              </div>
+              <a href="https://github.com/Bhaveek08" target="_blank">View on GitHub</a>
             </div>
           </div>
         </div>
-
-        <!-- Project 4: MarketMind Bot -->
-        <div class="project-card" data-category="automation">
+        <div class="project-card">
           <div class="project-image">
-            <div class="project-placeholder" style="background:linear-gradient(135deg,#020809,#041a12,#005c2e);">
-              <i class="fas fa-chart-bar" style="color:#22d974;text-shadow:0 0 20px #22d974"></i>
-            </div>
-            <div class="project-overlay">
-              <a href="https://github.com/Bhaveek08/marketmind-bot" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
-              <a href="projects/marketmind-bot/index.html" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+            <div class="project-placeholder" style="background: linear-gradient(135deg, #000d00 0%, #003300 100%);">
+              <i class="fas fa-terminal" style="color:#00ff41"></i>
             </div>
           </div>
           <div class="project-info">
-            <div class="project-tags">
-              <span class="tag">JavaScript</span><span class="tag">Simulation</span><span class="tag">CSS</span>
-            </div>
-            <h3 class="project-title">MarketMind Bot</h3>
-            <p class="project-desc">Simulated crypto market bot with live-updating price feeds, auto-generated BUY/SELL/HOLD signals, portfolio tracker, and a live bot terminal log.</p>
+            <h3 class="project-title">Market Terminal</h3>
+            <p class="project-desc">Cyberpunk-themed simulated crypto tracking UI with live price updates.</p>
             <div class="project-footer">
-              <span class="project-year"><i class="far fa-calendar"></i> 2025</span>
-              <div class="project-links">
-                <a href="https://github.com/Bhaveek08/marketmind-bot" target="_blank"><i class="fab fa-github"></i> Code</a>
-                <a href="projects/marketmind-bot/index.html" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a>
-              </div>
+              <a href="https://github.com/Bhaveek08" target="_blank">View on GitHub</a>
             </div>
           </div>
         </div>
-
-        <!-- Project 5: Portfolio Assistant -->
-        <div class="project-card" data-category="ai">
+        <div class="project-card">
           <div class="project-image">
-            <div class="project-placeholder" style="background:linear-gradient(135deg,#030711,#0c1445,#1e3a8a);">
-              <i class="fas fa-comments" style="color:#06b6d4;text-shadow:0 0 20px #06b6d4"></i>
-            </div>
-            <div class="project-overlay">
-              <a href="https://github.com/Bhaveek08/portfolio-assistant" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
-              <a href="projects/portfolio-assistant/index.html" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+            <div class="project-placeholder" style="background: linear-gradient(135deg, #3b0764 0%, #581c87 100%);">
+              <i class="fas fa-cube" style="color:#c084fc"></i>
             </div>
           </div>
           <div class="project-info">
-            <div class="project-tags">
-              <span class="tag">JavaScript</span><span class="tag">AI UI</span><span class="tag">Navigation</span>
-            </div>
-            <h3 class="project-title">Portfolio Assistant</h3>
-            <p class="project-desc">Intelligent chatbot designed for portfolio navigation — answers questions, scrolls to sections, and provides a guided visitor experience. Embeddable widget.</p>
+            <h3 class="project-title">Blender Showreel</h3>
+            <p class="project-desc">Portfolio of hard-surface models, character renders, and lighting scenes in Blender.</p>
             <div class="project-footer">
-              <span class="project-year"><i class="far fa-calendar"></i> 2025</span>
-              <div class="project-links">
-                <a href="https://github.com/Bhaveek08/portfolio-assistant" target="_blank"><i class="fab fa-github"></i> Code</a>
-                <a href="projects/portfolio-assistant/index.html" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a>
-              </div>
+              <a href="https://github.com/Bhaveek08" target="_blank">View on GitHub</a>
             </div>
           </div>
         </div>
-
-
-        <!-- P1: Neural Noir -->
-        <div class="project-card" data-category="game">
+        <div class="project-card">
           <div class="project-image">
-            <div class="project-placeholder" style="background:linear-gradient(135deg,#020105,#0d0520,#1a0830);">
-              <i class="fas fa-user-secret" style="color:#fbbf24;text-shadow:0 0 20px #fbbf24"></i>
-            </div>
-            <div class="project-overlay">
-              <a href="https://github.com/Bhaveek08/neural-noir-detective" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
-              <a href="projects/neural-noir-detective/index.html" target="_blank" class="project-link"><i class="fas fa-play"></i></a>
+            <div class="project-placeholder" style="background: linear-gradient(135deg, #431407 0%, #7c2d12 100%);">
+              <i class="fas fa-shield-alt" style="color:#fb923c"></i>
             </div>
           </div>
           <div class="project-info">
-            <div class="project-tags"><span class="tag">Procedural</span><span class="tag">Noir</span><span class="tag">Detective</span></div>
-            <h3 class="project-title">Neural Noir</h3>
-            <p class="project-desc">Procedural AI detective game — every playthrough generates a new murder, suspects, and clues. NPC memory, rain canvas simulation, and deduction board.</p>
-            <div class="project-footer"><span class="project-year"><i class="far fa-calendar"></i> 2025</span>
-              <div class="project-links"><a href="https://github.com/Bhaveek08/neural-noir-detective" target="_blank"><i class="fab fa-github"></i> Code</a><a href="projects/neural-noir-detective/index.html" target="_blank"><i class="fas fa-play"></i> Play</a></div>
+            <h3 class="project-title">Security Toolkit</h3>
+            <p class="project-desc">Utility scripts for network monitoring, port scanning, and file hashing exercises.</p>
+            <div class="project-footer">
+              <a href="https://github.com/Bhaveek08" target="_blank">View on GitHub</a>
             </div>
           </div>
         </div>
-
-        <!-- P2: Echo Shift -->
-        <div class="project-card" data-category="game">
-          <div class="project-image">
-            <div class="project-placeholder" style="background:linear-gradient(135deg,#030712,#1e1b4b,#3730a3);">
-              <i class="fas fa-clock-rotate-left" style="color:#6366f1;text-shadow:0 0 20px #6366f1"></i>
-            </div>
-            <div class="project-overlay">
-              <a href="https://github.com/Bhaveek08/echo-shift-time-loop" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
-              <a href="projects/echo-shift-time-loop/index.html" target="_blank" class="project-link"><i class="fas fa-play"></i></a>
-            </div>
-          </div>
-          <div class="project-info">
-            <div class="project-tags"><span class="tag">Puzzle</span><span class="tag">Time Loop</span><span class="tag">Ghost AI</span></div>
-            <h3 class="project-title">Echo Shift</h3>
-            <p class="project-desc">Cooperate with ghost echoes of your past self to solve impossible puzzles. Record movement, replay it, trigger pressure plates — time paradox mechanics.</p>
-            <div class="project-footer"><span class="project-year"><i class="far fa-calendar"></i> 2025</span>
-              <div class="project-links"><a href="https://github.com/Bhaveek08/echo-shift-time-loop" target="_blank"><i class="fab fa-github"></i> Code</a><a href="projects/echo-shift-time-loop/index.html" target="_blank"><i class="fas fa-play"></i> Play</a></div>
-            </div>
-          </div>
-        </div>
-
-        <!-- P3: Dominion Grid -->
-        <div class="project-card" data-category="game">
-          <div class="project-image">
-            <div class="project-placeholder" style="background:linear-gradient(135deg,#050912,#1a1040,#2e1065);">
-              <i class="fas fa-chess-board" style="color:#a855f7;text-shadow:0 0 20px #a855f7"></i>
-            </div>
-            <div class="project-overlay">
-              <a href="https://github.com/Bhaveek08/dominion-grid-rts" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
-              <a href="projects/dominion-grid-rts/index.html" target="_blank" class="project-link"><i class="fas fa-play"></i></a>
-            </div>
-          </div>
-          <div class="project-info">
-            <div class="project-tags"><span class="tag">RTS</span><span class="tag">Turn-Based</span><span class="tag">Fog of War</span></div>
-            <h3 class="project-title">Dominion Grid</h3>
-            <p class="project-desc">Turn-based territory control RTS — capture grid cells, build fortifications, battle adaptive AI across fog-of-war maps with energy and resource systems.</p>
-            <div class="project-footer"><span class="project-year"><i class="far fa-calendar"></i> 2025</span>
-              <div class="project-links"><a href="https://github.com/Bhaveek08/dominion-grid-rts" target="_blank"><i class="fab fa-github"></i> Code</a><a href="projects/dominion-grid-rts/index.html" target="_blank"><i class="fas fa-play"></i> Play</a></div>
-            </div>
-          </div>
-        </div>
-
-        <!-- P4: Genesis Protocol -->
-        <div class="project-card" data-category="ai">
-          <div class="project-image">
-            <div class="project-placeholder" style="background:linear-gradient(135deg,#020c06,#042a10,#065f2a);">
-              <i class="fas fa-dna" style="color:#22c55e;text-shadow:0 0 20px #22c55e"></i>
-            </div>
-            <div class="project-overlay">
-              <a href="https://github.com/Bhaveek08/genesis-protocol-sim" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
-              <a href="projects/genesis-protocol-sim/index.html" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i></a>
-            </div>
-          </div>
-          <div class="project-info">
-            <div class="project-tags"><span class="tag">Simulation</span><span class="tag">Genetic AI</span><span class="tag">Evolution</span></div>
-            <h3 class="project-title">Genesis Protocol</h3>
-            <p class="project-desc">Live ecosystem simulation with Darwinian evolution. Predators, herbivores, and plants compete — watch speed, vision, and reproduction traits evolve in real time.</p>
-            <div class="project-footer"><span class="project-year"><i class="far fa-calendar"></i> 2025</span>
-              <div class="project-links"><a href="https://github.com/Bhaveek08/genesis-protocol-sim" target="_blank"><i class="fab fa-github"></i> Code</a><a href="projects/genesis-protocol-sim/index.html" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a></div>
-            </div>
-          </div>
-        </div>
-
-        <!-- P5: Silence Protocol -->
-        <div class="project-card" data-category="game">
-          <div class="project-image">
-            <div class="project-placeholder" style="background:linear-gradient(135deg,#000,#0a0005,#1a000a);">
-              <i class="fas fa-volume-xmark" style="color:#ef4444;text-shadow:0 0 20px #ef4444"></i>
-            </div>
-            <div class="project-overlay">
-              <a href="https://github.com/Bhaveek08/silence-protocol-horror" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
-              <a href="projects/silence-protocol-horror/index.html" target="_blank" class="project-link"><i class="fas fa-play"></i></a>
-            </div>
-          </div>
-          <div class="project-info">
-            <div class="project-tags"><span class="tag">Horror</span><span class="tag">Sound AI</span><span class="tag">Stealth</span></div>
-            <h3 class="project-title">Silence Protocol</h3>
-            <p class="project-desc">Sound-based stealth horror — the entity hunts by noise. Navigate darkness with a flashlight, manage stress, stay silent, and reach the exit alive.</p>
-            <div class="project-footer"><span class="project-year"><i class="far fa-calendar"></i> 2025</span>
-              <div class="project-links"><a href="https://github.com/Bhaveek08/silence-protocol-horror" target="_blank"><i class="fab fa-github"></i> Code</a><a href="projects/silence-protocol-horror/index.html" target="_blank"><i class="fas fa-play"></i> Play</a></div>
-            </div>
-          </div>
-        </div>
-
-        <!-- P6: Velocity Zero -->
-        <div class="project-card" data-category="game">
-          <div class="project-image">
-            <div class="project-placeholder" style="background:linear-gradient(135deg,#070b14,#1c0e02,#3a1c04);">
-              <i class="fas fa-person-running" style="color:#f97316;text-shadow:0 0 20px #f97316"></i>
-            </div>
-            <div class="project-overlay">
-              <a href="https://github.com/Bhaveek08/velocity-zero-parkour" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
-              <a href="projects/velocity-zero-parkour/index.html" target="_blank" class="project-link"><i class="fas fa-play"></i></a>
-            </div>
-          </div>
-          <div class="project-info">
-            <div class="project-tags"><span class="tag">Parkour</span><span class="tag">Physics</span><span class="tag">Combo</span></div>
-            <h3 class="project-title">Velocity Zero</h3>
-            <p class="project-desc">Precision movement platformer — wall running, grapple hook, air dash, and double jumps. Build velocity-based combos on handcrafted momentum courses.</p>
-            <div class="project-footer"><span class="project-year"><i class="far fa-calendar"></i> 2025</span>
-              <div class="project-links"><a href="https://github.com/Bhaveek08/velocity-zero-parkour" target="_blank"><i class="fab fa-github"></i> Code</a><a href="projects/velocity-zero-parkour/index.html" target="_blank"><i class="fas fa-play"></i> Play</a></div>
-            </div>
-          </div>
-        </div>
-
-        <!-- P7: Architect of Ruin -->
-        <div class="project-card" data-category="game">
-          <div class="project-image">
-            <div class="project-placeholder" style="background:linear-gradient(135deg,#080408,#1a0838,#2d0a5e);">
-              <i class="fas fa-dungeon" style="color:#a855f7;text-shadow:0 0 20px #a855f7"></i>
-            </div>
-            <div class="project-overlay">
-              <a href="https://github.com/Bhaveek08/architect-of-ruin" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
-              <a href="projects/architect-of-ruin/index.html" target="_blank" class="project-link"><i class="fas fa-play"></i></a>
-            </div>
-          </div>
-          <div class="project-info">
-            <div class="project-tags"><span class="tag">Dungeon Crawler</span><span class="tag">BSP Gen</span><span class="tag">RPG</span></div>
-            <h3 class="project-title">Architect of Ruin</h3>
-            <p class="project-desc">BSP procedural dungeon crawler — turn-based combat, adaptive enemy AI, item pickups, minimap, and infinitely generated dark floors. No two runs alike.</p>
-            <div class="project-footer"><span class="project-year"><i class="far fa-calendar"></i> 2025</span>
-              <div class="project-links"><a href="https://github.com/Bhaveek08/architect-of-ruin" target="_blank"><i class="fab fa-github"></i> Code</a><a href="projects/architect-of-ruin/index.html" target="_blank"><i class="fas fa-play"></i> Play</a></div>
-            </div>
-          </div>
-        </div>
-
-        <!-- P8: NeuroFlow -->
-        <div class="project-card" data-category="ai">
-          <div class="project-image">
-            <div class="project-placeholder" style="background:linear-gradient(135deg,#030711,#1e1b4b,#312e81);">
-              <i class="fas fa-diagram-project" style="color:#6366f1;text-shadow:0 0 20px #6366f1"></i>
-            </div>
-            <div class="project-overlay">
-              <a href="https://github.com/Bhaveek08/neuroflow-ai-builder" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
-              <a href="projects/neuroflow-ai-builder/index.html" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i></a>
-            </div>
-          </div>
-          <div class="project-info">
-            <div class="project-tags"><span class="tag">AI</span><span class="tag">Drag & Drop</span><span class="tag">Nodes</span></div>
-            <h3 class="project-title">NeuroFlow</h3>
-            <p class="project-desc">Visual AI workflow builder — drag LLM, API, memory, and logic nodes onto a canvas, connect with bezier curves, configure properties, and simulate execution.</p>
-            <div class="project-footer"><span class="project-year"><i class="far fa-calendar"></i> 2025</span>
-              <div class="project-links"><a href="https://github.com/Bhaveek08/neuroflow-ai-builder" target="_blank"><i class="fab fa-github"></i> Code</a><a href="projects/neuroflow-ai-builder/index.html" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a></div>
-            </div>
-          </div>
-        </div>
-
-        <!-- P9: InfiniteCanvas -->
-        <div class="project-card" data-category="design">
-          <div class="project-image">
-            <div class="project-placeholder" style="background:linear-gradient(135deg,#0a0d14,#0f1a2e,#1a2040);">
-              <i class="fas fa-pen-nib" style="color:#06b6d4;text-shadow:0 0 20px #06b6d4"></i>
-            </div>
-            <div class="project-overlay">
-              <a href="https://github.com/Bhaveek08/infinitecanvas-collab" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
-              <a href="projects/infinitecanvas-collab/index.html" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i></a>
-            </div>
-          </div>
-          <div class="project-info">
-            <div class="project-tags"><span class="tag">Canvas</span><span class="tag">Collaborative</span><span class="tag">Whiteboard</span></div>
-            <h3 class="project-title">InfiniteCanvas</h3>
-            <p class="project-desc">Infinite collaborative whiteboard — draw, add shapes, sticky notes, and arrows on an endlessly zoomable canvas. Simulated real-time cursors, export to PNG.</p>
-            <div class="project-footer"><span class="project-year"><i class="far fa-calendar"></i> 2025</span>
-              <div class="project-links"><a href="https://github.com/Bhaveek08/infinitecanvas-collab" target="_blank"><i class="fab fa-github"></i> Code</a><a href="projects/infinitecanvas-collab/index.html" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a></div>
-            </div>
-          </div>
-        </div>
-
-        <!-- P10: LifeLedger -->
-        <div class="project-card" data-category="analytics">
-          <div class="project-image">
-            <div class="project-placeholder" style="background:linear-gradient(135deg,#040810,#1a1002,#2a1a00);">
-              <i class="fas fa-coins" style="color:#fbbf24;text-shadow:0 0 20px #fbbf24"></i>
-            </div>
-            <div class="project-overlay">
-              <a href="https://github.com/Bhaveek08/lifeledger-simulator" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
-              <a href="projects/lifeledger-simulator/index.html" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i></a>
-            </div>
-          </div>
-          <div class="project-info">
-            <div class="project-tags"><span class="tag">Finance</span><span class="tag">Chart.js</span><span class="tag">Simulation</span></div>
-            <h3 class="project-title">LifeLedger</h3>
-            <p class="project-desc">Personal finance life simulator — buy stocks, real estate, crypto, take life decisions, advance years, trigger random events. Watch your net worth grow or collapse.</p>
-            <div class="project-footer"><span class="project-year"><i class="far fa-calendar"></i> 2025</span>
-              <div class="project-links"><a href="https://github.com/Bhaveek08/lifeledger-simulator" target="_blank"><i class="fab fa-github"></i> Code</a><a href="projects/lifeledger-simulator/index.html" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a></div>
-            </div>
-          </div>
-        </div>
-
-        <!-- P11: CodeAtlas -->
-        <div class="project-card" data-category="ai">
-          <div class="project-image">
-            <div class="project-placeholder" style="background:linear-gradient(135deg,#040a0f,#011a20,#003344);">
-              <i class="fas fa-code-branch" style="color:#06b6d4;text-shadow:0 0 20px #06b6d4"></i>
-            </div>
-            <div class="project-overlay">
-              <a href="https://github.com/Bhaveek08/codeatlas-graph" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
-              <a href="projects/codeatlas-graph/index.html" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i></a>
-            </div>
-          </div>
-          <div class="project-info">
-            <div class="project-tags"><span class="tag">D3.js</span><span class="tag">Knowledge Graph</span><span class="tag">AI</span></div>
-            <h3 class="project-title">CodeAtlas</h3>
-            <p class="project-desc">Codebase knowledge graph — visualize module dependencies with D3.js force layout. Detect circular deps, analyze complexity, ask the AI architecture assistant.</p>
-            <div class="project-footer"><span class="project-year"><i class="far fa-calendar"></i> 2025</span>
-              <div class="project-links"><a href="https://github.com/Bhaveek08/codeatlas-graph" target="_blank"><i class="fab fa-github"></i> Code</a><a href="projects/codeatlas-graph/index.html" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a></div>
-            </div>
-          </div>
-        </div>
-
-        <!-- P12: Oblivion Notes -->
-        <div class="project-card" data-category="automation">
-          <div class="project-image">
-            <div class="project-placeholder" style="background:linear-gradient(135deg,#08090d,#1a0d28,#2d0a50);">
-              <i class="fas fa-lock" style="color:#a855f7;text-shadow:0 0 20px #a855f7"></i>
-            </div>
-            <div class="project-overlay">
-              <a href="https://github.com/Bhaveek08/oblivion-notes" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
-              <a href="projects/oblivion-notes/index.html" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i></a>
-            </div>
-          </div>
-          <div class="project-info">
-            <div class="project-tags"><span class="tag">Encrypted</span><span class="tag">Markdown</span><span class="tag">Knowledge Graph</span></div>
-            <h3 class="project-title">Oblivion Notes</h3>
-            <p class="project-desc">Local-first encrypted note-taking app — markdown editor, wikilinks, backlinks, knowledge graph, tag cloud, AES-256 encryption, all persisted in localStorage.</p>
-            <div class="project-footer"><span class="project-year"><i class="far fa-calendar"></i> 2025</span>
-              <div class="project-links"><a href="https://github.com/Bhaveek08/oblivion-notes" target="_blank"><i class="fab fa-github"></i> Code</a><a href="projects/oblivion-notes/index.html" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a></div>
-            </div>
-          </div>
-        </div>
-
-        <!-- P13: IntervueX -->
-        <div class="project-card" data-category="ai">
-          <div class="project-image">
-            <div class="project-placeholder" style="background:linear-gradient(135deg,#040710,#072018,#083818);">
-              <i class="fas fa-microphone" style="color:#10b981;text-shadow:0 0 20px #10b981"></i>
-            </div>
-            <div class="project-overlay">
-              <a href="https://github.com/Bhaveek08/intervuex-ai" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
-              <a href="projects/intervuex-ai/index.html" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i></a>
-            </div>
-          </div>
-          <div class="project-info">
-            <div class="project-tags"><span class="tag">AI</span><span class="tag">Interview</span><span class="tag">Scoring</span></div>
-            <h3 class="project-title">IntervueX</h3>
-            <p class="project-desc">AI-powered interview simulator with behavioral, technical, system design, and HR rounds. Live scoring, confidence analysis, STAR method feedback, and session timer.</p>
-            <div class="project-footer"><span class="project-year"><i class="far fa-calendar"></i> 2025</span>
-              <div class="project-links"><a href="https://github.com/Bhaveek08/intervuex-ai" target="_blank"><i class="fab fa-github"></i> Code</a><a href="projects/intervuex-ai/index.html" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a></div>
-            </div>
-          </div>
-        </div>
-
-        <!-- P14: DataCinema -->
-        <div class="project-card" data-category="analytics">
-          <div class="project-image">
-            <div class="project-placeholder" style="background:linear-gradient(135deg,#050810,#1a0830,#3a0a50);">
-              <i class="fas fa-film" style="color:#ec4899;text-shadow:0 0 20px #ec4899"></i>
-            </div>
-            <div class="project-overlay">
-              <a href="https://github.com/Bhaveek08/datacinema-platform" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
-              <a href="projects/datacinema-platform/index.html" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i></a>
-            </div>
-          </div>
-          <div class="project-info">
-            <div class="project-tags"><span class="tag">Chart.js</span><span class="tag">Storytelling</span><span class="tag">Data Viz</span></div>
-            <h3 class="project-title">DataCinema</h3>
-            <p class="project-desc">Animated data storytelling platform — cinematic chart scenes covering the internet revolution, AI boom, cloud computing, and future projections with auto-play navigation.</p>
-            <div class="project-footer"><span class="project-year"><i class="far fa-calendar"></i> 2025</span>
-              <div class="project-links"><a href="https://github.com/Bhaveek08/datacinema-platform" target="_blank"><i class="fab fa-github"></i> Code</a><a href="projects/datacinema-platform/index.html" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a></div>
-            </div>
-          </div>
-        </div>
-
-        <!-- P15: Midnight Velocity -->
-        <div class="project-card" data-category="game">
-          <div class="project-image">
-            <div class="project-placeholder" style="background:linear-gradient(135deg,#020408,#0a0812,#0e0a20);">
-              <i class="fas fa-car" style="color:#fbbf24;text-shadow:0 0 20px #fbbf24"></i>
-            </div>
-            <div class="project-overlay">
-              <a href="https://github.com/Bhaveek08/midnight-velocity-racer" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
-              <a href="projects/midnight-velocity-racer/index.html" target="_blank" class="project-link"><i class="fas fa-play"></i></a>
-            </div>
-          </div>
-          <div class="project-info">
-            <div class="project-tags"><span class="tag">Racing</span><span class="tag">Physics</span><span class="tag">Neon City</span></div>
-            <h3 class="project-title">Midnight Velocity</h3>
-            <p class="project-desc">Cinematic street racing — neon city rendering, traffic AI, police heat system, nitro boost, speedometer HUD, rain simulation, and building parallax.</p>
-            <div class="project-footer"><span class="project-year"><i class="far fa-calendar"></i> 2025</span>
-              <div class="project-links"><a href="https://github.com/Bhaveek08/midnight-velocity-racer" target="_blank"><i class="fab fa-github"></i> Code</a><a href="projects/midnight-velocity-racer/index.html" target="_blank"><i class="fas fa-play"></i> Play</a></div>
-            </div>
-          </div>
-        </div>
-
-        <!-- P16: Neon Ascension -->
-        <div class="project-card" data-category="game">
-          <div class="project-image">
-            <div class="project-placeholder" style="background:linear-gradient(135deg,#05080f,#0f1a35,#1a2a50);">
-              <i class="fas fa-tower-observation" style="color:#6366f1;text-shadow:0 0 20px #6366f1"></i>
-            </div>
-            <div class="project-overlay">
-              <a href="https://github.com/Bhaveek08/neon-ascension-td" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
-              <a href="projects/neon-ascension-td/index.html" target="_blank" class="project-link"><i class="fas fa-play"></i></a>
-            </div>
-          </div>
-          <div class="project-info">
-            <div class="project-tags"><span class="tag">Tower Defense</span><span class="tag">Waves</span><span class="tag">Strategy</span></div>
-            <h3 class="project-title">Neon Ascension</h3>
-            <p class="project-desc">Cyberpunk tower defense — 5 unique tower types (Laser, Missile, Freeze, Tesla, Sniper), AoE explosions, chain lightning, and evolving enemy waves.</p>
-            <div class="project-footer"><span class="project-year"><i class="far fa-calendar"></i> 2025</span>
-              <div class="project-links"><a href="https://github.com/Bhaveek08/neon-ascension-td" target="_blank"><i class="fab fa-github"></i> Code</a><a href="projects/neon-ascension-td/index.html" target="_blank"><i class="fas fa-play"></i> Play</a></div>
-            </div>
-          </div>
-        </div>
-
-        <!-- P17: Stellar Frontier -->
-        <div class="project-card" data-category="game">
-          <div class="project-image">
-            <div class="project-placeholder" style="background:linear-gradient(135deg,#000,#000820,#001040);">
-              <i class="fas fa-rocket" style="color:#6366f1;text-shadow:0 0 20px #6366f1"></i>
-            </div>
-            <div class="project-overlay">
-              <a href="https://github.com/Bhaveek08/stellar-frontier" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
-              <a href="projects/stellar-frontier/index.html" target="_blank" class="project-link"><i class="fas fa-play"></i></a>
-            </div>
-          </div>
-          <div class="project-info">
-            <div class="project-tags"><span class="tag">Space</span><span class="tag">Procedural</span><span class="tag">Exploration</span></div>
-            <h3 class="project-title">Stellar Frontier</h3>
-            <p class="project-desc">Open-world space exploration — 12 procedural orbiting planets, ship physics, fuel/oxygen survival, resource collection, and dynamic nebula rendering.</p>
-            <div class="project-footer"><span class="project-year"><i class="far fa-calendar"></i> 2025</span>
-              <div class="project-links"><a href="https://github.com/Bhaveek08/stellar-frontier" target="_blank"><i class="fab fa-github"></i> Code</a><a href="projects/stellar-frontier/index.html" target="_blank"><i class="fas fa-play"></i> Play</a></div>
-            </div>
-          </div>
-        </div>
-
-        <!-- P18: Steel Titans -->
-        <div class="project-card" data-category="game">
-          <div class="project-image">
-            <div class="project-placeholder" style="background:linear-gradient(135deg,#040608,#0a1020,#0d1a30);">
-              <i class="fas fa-robot" style="color:#eab308;text-shadow:0 0 20px #eab308"></i>
-            </div>
-            <div class="project-overlay">
-              <a href="https://github.com/Bhaveek08/steel-titans-arena" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
-              <a href="projects/steel-titans-arena/index.html" target="_blank" class="project-link"><i class="fas fa-play"></i></a>
-            </div>
-          </div>
-          <div class="project-info">
-            <div class="project-tags"><span class="tag">Fighting</span><span class="tag">Mech</span><span class="tag">AI Combat</span></div>
-            <h3 class="project-title">Steel Titans</h3>
-            <p class="project-desc">Mech combat arena — punch, missiles, lasers, shields against adaptive AI. Energy economy, platform arenas, explosion effects, 3 AI difficulty modes.</p>
-            <div class="project-footer"><span class="project-year"><i class="far fa-calendar"></i> 2025</span>
-              <div class="project-links"><a href="https://github.com/Bhaveek08/steel-titans-arena" target="_blank"><i class="fab fa-github"></i> Code</a><a href="projects/steel-titans-arena/index.html" target="_blank"><i class="fas fa-play"></i> Play</a></div>
-            </div>
-          </div>
-        </div>
-
-        <!-- P19: Endless Horizon -->
-        <div class="project-card" data-category="game">
-          <div class="project-image">
-            <div class="project-placeholder" style="background:linear-gradient(135deg,#010104,#0a0520,#1a0a40);">
-              <i class="fas fa-infinity" style="color:#a855f7;text-shadow:0 0 20px #a855f7"></i>
-            </div>
-            <div class="project-overlay">
-              <a href="https://github.com/Bhaveek08/endless-horizon-runner" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
-              <a href="projects/endless-horizon-runner/index.html" target="_blank" class="project-link"><i class="fas fa-play"></i></a>
-            </div>
-          </div>
-          <div class="project-info">
-            <div class="project-tags"><span class="tag">Runner</span><span class="tag">Biomes</span><span class="tag">Procedural</span></div>
-            <h3 class="project-title">Endless Horizon</h3>
-            <p class="project-desc">Infinite runner through 5 evolving biomes — double jump, air dash, procedural obstacles, parallax stars, combo multipliers, and local high score persistence.</p>
-            <div class="project-footer"><span class="project-year"><i class="far fa-calendar"></i> 2025</span>
-              <div class="project-links"><a href="https://github.com/Bhaveek08/endless-horizon-runner" target="_blank"><i class="fab fa-github"></i> Code</a><a href="projects/endless-horizon-runner/index.html" target="_blank"><i class="fas fa-play"></i> Play</a></div>
-            </div>
-          </div>
-        </div>
-
-        <!-- P20: Nova Exchange -->
-        <div class="project-card" data-category="analytics">
-          <div class="project-image">
-            <div class="project-placeholder" style="background:linear-gradient(135deg,#040810,#1a0e02,#2a1800);">
-              <i class="fab fa-bitcoin" style="color:#f59e0b;text-shadow:0 0 20px #f59e0b"></i>
-            </div>
-            <div class="project-overlay">
-              <a href="https://github.com/Bhaveek08/nova-exchange-crypto" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
-              <a href="projects/nova-exchange-crypto/index.html" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i></a>
-            </div>
-          </div>
-          <div class="project-info">
-            <div class="project-tags"><span class="tag">Crypto</span><span class="tag">Chart.js</span><span class="tag">Trading Sim</span></div>
-            <h3 class="project-title">Nova Exchange</h3>
-            <p class="project-desc">Real-time crypto portfolio simulator — buy/sell 6 coins, watch prices fluctuate with market news events, track value with live charts, news feed, and achievements.</p>
-            <div class="project-footer"><span class="project-year"><i class="far fa-calendar"></i> 2025</span>
-              <div class="project-links"><a href="https://github.com/Bhaveek08/nova-exchange-crypto" target="_blank"><i class="fab fa-github"></i> Code</a><a href="projects/nova-exchange-crypto/index.html" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a></div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-      <div class="projects-more">
-        <a href="https://github.com/Bhaveek08" target="_blank" rel="noopener" class="btn-secondary">
-          <i class="fab fa-github"></i> View All on GitHub
-        </a>
       </div>
     </div>
   </section>
 
-  <!-- EXPERIENCE (REALISTIC) -->
+  <!-- Experience Section -->
   <section id="experience" class="section section-alt">
     <div class="container">
-      <div class="section-header reveal">
+      <div class="section-header">
         <span class="section-label">My Journey</span>
         <h2 class="section-title">My <span class="gradient-text">Experience</span></h2>
-        <p class="section-subtitle">Real work — freelance projects, community collabs, and self-driven learning.</p>
       </div>
       <div class="timeline">
-        <div class="timeline-item reveal">
+        <div class="timeline-item">
           <div class="timeline-dot"></div>
-          <div class="timeline-date">2023 – Present</div>
+          <div class="timeline-date">2023 – 2025</div>
           <div class="timeline-content">
-            <div class="timeline-header">
-              <div>
-                <h3 class="timeline-title">Freelance Developer & 3D Artist</h3>
-                <div class="timeline-company"><i class="fas fa-user-tie"></i> Self-employed</div>
-              </div>
-              <span class="timeline-badge current">Active</span>
-            </div>
-            <p class="timeline-desc">Worked with online communities, friends, and freelance clients on small-scale web development, 3D modeling, UI concepts, and experimental software projects. Focused on learning through real-world collaboration and continuous improvement.</p>
-            <div class="timeline-tags">
-              <span class="tag">JavaScript</span><span class="tag">Blender</span><span class="tag">HTML/CSS</span><span class="tag">Node.js</span><span class="tag">UI Design</span>
-            </div>
+            <h3 class="timeline-title">Freelance Developer &amp; Creator</h3>
+            <p class="timeline-desc">Collaborating on open-source projects, developing tools, and practicing 3D modeling. Focused on problem-solving through code.</p>
           </div>
         </div>
-        <div class="timeline-item reveal">
+        <div class="timeline-item">
           <div class="timeline-dot"></div>
-          <div class="timeline-date">2022 – Present</div>
+          <div class="timeline-date">2024 – 2024</div>
           <div class="timeline-content">
-            <div class="timeline-header">
-              <div>
-                <h3 class="timeline-title">Community Project Collaborator</h3>
-                <div class="timeline-company"><i class="fab fa-discord"></i> Online Dev Communities</div>
-              </div>
-              <span class="timeline-badge">Community</span>
-            </div>
-            <p class="timeline-desc">Collaborated with friends and online developers on experimental apps, mini games, Discord-related tools, and creative coding projects. Learned version control, debugging, teamwork, and rapid prototyping in real conditions.</p>
-            <div class="timeline-tags">
-              <span class="tag">Python</span><span class="tag">GitHub</span><span class="tag">JavaScript</span><span class="tag">Game Dev</span><span class="tag">Teamwork</span>
-            </div>
+            <h3 class="timeline-title">MIT-WPU Summer Program</h3>
+            <p class="timeline-desc">Hands-on exposure to App development and AI Chatbot design at MIT-WPU.</p>
           </div>
         </div>
-        <div class="timeline-item reveal">
+        <div class="timeline-item">
           <div class="timeline-dot"></div>
-          <div class="timeline-date">2020 – Present</div>
+          <div class="timeline-date">2020 – 2023</div>
           <div class="timeline-content">
-            <div class="timeline-header">
-              <div>
-                <h3 class="timeline-title">Self-Taught Developer Journey</h3>
-                <div class="timeline-company"><i class="fas fa-laptop-code"></i> Independent</div>
-              </div>
-              <span class="timeline-badge">Foundation</span>
-            </div>
-            <p class="timeline-desc">Started learning programming after discovering Python in middle school. Explored web development, ethical hacking, game development, Minecraft modding, app development, and AI tools through curiosity-driven experimentation — all self-directed.</p>
-            <div class="timeline-tags">
-              <span class="tag">Python</span><span class="tag">Cyber Security</span><span class="tag">Web Dev</span><span class="tag">AI/ML</span><span class="tag">Blender</span>
-            </div>
+            <h3 class="timeline-title">Self-Taught Engineering</h3>
+            <p class="timeline-desc">Spent years building Minecraft mods, learning Python, and exploring cybersecurity tools.</p>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- EDUCATION -->
+  <!-- Education Section -->
   <section id="education" class="section">
     <div class="container">
-      <div class="section-header reveal">
+      <div class="section-header">
         <span class="section-label">Academic Background</span>
         <h2 class="section-title">My <span class="gradient-text">Education</span></h2>
-        <p class="section-subtitle">The academic foundation alongside continuous self-learning.</p>
+        <p class="section-subtitle">The academic foundation behind my passion for technology, security, and creative engineering</p>
       </div>
       <div class="education-grid">
-        <div class="edu-card reveal">
-          <div class="edu-icon"><i class="fas fa-shield-halved"></i></div>
+        <div class="edu-card">
+          <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
           <div class="edu-details">
-            <h3 class="edu-degree">BCA — Cyber Security</h3>
-            <div class="edu-major">Bachelor of Computer Applications (Cyber Security)</div>
-            <div class="edu-institution"><i class="fas fa-university"></i> Starting Soon — First Year</div>
-            <div class="edu-year"><i class="far fa-calendar"></i> 2025 – 2028 (Expected)</div>
-            <div class="edu-gpa"><i class="fas fa-star"></i> Specialization: Ethical Hacking & Network Security</div>
-            <p class="edu-desc">Looking forward to formalizing my self-taught skills in cybersecurity, networking, and software development. Excited to participate in CTF competitions and security research.</p>
+            <h3 class="edu-degree">BCA — Bachelor of Computer Applications</h3>
+            <div class="edu-major">Specialization: Cyber Security</div>
+            <div class="edu-institution"><i class="fas fa-university"></i> MIT-WPU — MIT World Peace University, Pune</div>
+            <div class="edu-year"><i class="far fa-calendar"></i> 2025 – Upcoming (1st Year)</div>
+            <div class="edu-gpa"><i class="fas fa-shield-alt" style="color:var(--primary)"></i> Focus: Ethical Hacking, Networks, Secure Systems</div>
+            <p class="edu-desc">Joining MIT-WPU to pursue BCA in Cyber Security — building on 5+ years of self-taught development, 3D art, and security exploration with formal academic training in network security, cryptography, and secure software development.</p>
           </div>
         </div>
-        <div class="edu-card reveal">
+        <div class="edu-card">
           <div class="edu-icon"><i class="fas fa-school"></i></div>
           <div class="edu-details">
-            <h3 class="edu-degree">Higher Secondary — 12th Grade</h3>
+            <h3 class="edu-degree">Higher Secondary (12th Grade)</h3>
             <div class="edu-major">Science — PCM with Computer Science</div>
             <div class="edu-institution"><i class="fas fa-school"></i> Senior Secondary School, India</div>
-            <div class="edu-year"><i class="far fa-calendar"></i> 2023 – 2025 (Current)</div>
-            <div class="edu-gpa"><i class="fas fa-star"></i> Subjects: Physics, Chemistry, Math, CS</div>
-            <p class="edu-desc">Balancing academics with self-directed programming projects, Blender 3D art, and cybersecurity exploration. Active in school tech events and coding challenges.</p>
+            <div class="edu-year"><i class="far fa-calendar"></i> Currently Completing</div>
+            <div class="edu-gpa"><i class="fas fa-star" style="color:var(--accent)"></i> Strong focus on Mathematics &amp; Computer Science</div>
+            <p class="edu-desc">While studying, independently explored programming, game development, 3D modeling, web development, and cybersecurity — earning an MIT-WPU Summer Camp Certificate in App Development and AI Chatbot development.</p>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- CERTIFICATIONS -->
+  <!-- Certifications Section -->
   <section id="certifications" class="section section-alt">
     <div class="container">
-      <div class="section-header reveal">
+      <div class="section-header">
         <span class="section-label">Credentials</span>
         <h2 class="section-title">My <span class="gradient-text">Certifications</span></h2>
-        <p class="section-subtitle">Learning backed by recognized credentials from real platforms.</p>
+        <p class="section-subtitle">Real achievements from MIT-WPU, online platforms, and self-driven learning milestones</p>
       </div>
       <div class="certs-grid">
-        <div class="cert-card reveal">
-          <div class="cert-logo" style="background:linear-gradient(135deg,#3776AB,#FFD43B)"><i class="fab fa-python"></i></div>
+        <div class="cert-card">
+          <div class="cert-logo" style="background: linear-gradient(135deg, #c2410c, #ea580c);"><i class="fas fa-university"></i></div>
           <div class="cert-info">
-            <h4 class="cert-name">Python Fundamentals</h4>
-            <div class="cert-issuer">freeCodeCamp</div>
-            <div class="cert-date"><i class="far fa-calendar-check"></i> 2023</div>
+            <h4 class="cert-name">MIT-WPU Summer Camp — App Development</h4>
+            <div class="cert-issuer">MIT World Peace University</div>
+            <div class="cert-date"><i class="far fa-calendar-check"></i> 2024</div>
           </div>
-          <a href="#" class="cert-verify"><i class="fas fa-external-link-alt"></i></a>
+          <a href="#" class="cert-verify" target="_blank"><i class="fas fa-external-link-alt"></i></a>
         </div>
-        <div class="cert-card reveal">
-          <div class="cert-logo" style="background:linear-gradient(135deg,#E34F26,#F16529)"><i class="fas fa-code"></i></div>
+        <div class="cert-card">
+          <div class="cert-logo" style="background: linear-gradient(135deg, #a855f7, #7c3aed);"><i class="fas fa-robot"></i></div>
+          <div class="cert-info">
+            <h4 class="cert-name">MIT-WPU Summer Camp — AI Chatbot Dev</h4>
+            <div class="cert-issuer">MIT World Peace University</div>
+            <div class="cert-date"><i class="far fa-calendar-check"></i> 2024</div>
+          </div>
+          <a href="#" class="cert-verify" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+        </div>
+        <div class="cert-card">
+          <div class="cert-logo" style="background: linear-gradient(135deg, #E34F26, #F16529);"><i class="fab fa-html5"></i></div>
           <div class="cert-info">
             <h4 class="cert-name">Responsive Web Design</h4>
             <div class="cert-issuer">freeCodeCamp</div>
             <div class="cert-date"><i class="far fa-calendar-check"></i> 2023</div>
           </div>
-          <a href="#" class="cert-verify"><i class="fas fa-external-link-alt"></i></a>
+          <a href="#" class="cert-verify" target="_blank"><i class="fas fa-external-link-alt"></i></a>
         </div>
-        <div class="cert-card reveal">
-          <div class="cert-logo" style="background:linear-gradient(135deg,#22d974,#059669)"><i class="fas fa-shield-halved"></i></div>
+        <div class="cert-card">
+          <div class="cert-logo" style="background: linear-gradient(135deg, #3776AB, #FFD43B);"><i class="fab fa-python"></i></div>
           <div class="cert-info">
-            <h4 class="cert-name">Cybersecurity Basics</h4>
-            <div class="cert-issuer">Cisco Networking Academy</div>
-            <div class="cert-date"><i class="far fa-calendar-check"></i> 2024</div>
+            <h4 class="cert-name">Python Basics</h4>
+            <div class="cert-issuer">Kaggle / Coursera</div>
+            <div class="cert-date"><i class="far fa-calendar-check"></i> 2022</div>
           </div>
-          <a href="#" class="cert-verify"><i class="fas fa-external-link-alt"></i></a>
+          <a href="#" class="cert-verify" target="_blank"><i class="fas fa-external-link-alt"></i></a>
         </div>
-        <div class="cert-card reveal">
-          <div class="cert-logo" style="background:linear-gradient(135deg,#E87D0D,#F0A030)"><i class="fas fa-cube"></i></div>
+        <div class="cert-card">
+          <div class="cert-logo" style="background: linear-gradient(135deg, #ea580c, #dc2626);"><i class="fas fa-shield-alt"></i></div>
           <div class="cert-info">
-            <h4 class="cert-name">Blender 3D Fundamentals</h4>
-            <div class="cert-issuer">Udemy</div>
+            <h4 class="cert-name">Intro to Cyber Security</h4>
+            <div class="cert-issuer">Cisco Networking Academy</div>
             <div class="cert-date"><i class="far fa-calendar-check"></i> 2023</div>
           </div>
-          <a href="#" class="cert-verify"><i class="fas fa-external-link-alt"></i></a>
+          <a href="#" class="cert-verify" target="_blank"><i class="fas fa-external-link-alt"></i></a>
         </div>
-        <div class="cert-card reveal">
-          <div class="cert-logo" style="background:linear-gradient(135deg,#FF6F00,#FFA000)"><i class="fas fa-brain"></i></div>
+        <div class="cert-card">
+          <div class="cert-logo" style="background: linear-gradient(135deg, #f59e0b, #d97706);"><i class="fas fa-gamepad"></i></div>
           <div class="cert-info">
-            <h4 class="cert-name">Intro to Machine Learning</h4>
-            <div class="cert-issuer">Kaggle</div>
-            <div class="cert-date"><i class="far fa-calendar-check"></i> 2024</div>
-          </div>
-          <a href="#" class="cert-verify"><i class="fas fa-external-link-alt"></i></a>
-        </div>
-        <div class="cert-card reveal">
-          <div class="cert-logo" style="background:linear-gradient(135deg,#F7DF1E,#B8860B)"><i class="fab fa-js"></i></div>
-          <div class="cert-info">
-            <h4 class="cert-name">JavaScript Algorithms & DS</h4>
+            <h4 class="cert-name">JavaScript Algorithms &amp; Data Structures</h4>
             <div class="cert-issuer">freeCodeCamp</div>
-            <div class="cert-date"><i class="far fa-calendar-check"></i> 2024</div>
+            <div class="cert-date"><i class="far fa-calendar-check"></i> 2023</div>
           </div>
-          <a href="#" class="cert-verify"><i class="fas fa-external-link-alt"></i></a>
+          <a href="#" class="cert-verify" target="_blank"><i class="fas fa-external-link-alt"></i></a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- CONTACT -->
+  <!-- Contact Section -->
   <section id="contact" class="section">
     <div class="container">
-      <div class="section-header reveal">
+      <div class="section-header">
         <span class="section-label">Let's Talk</span>
         <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
-        <p class="section-subtitle">Have a project, collab idea, or just want to say hi? I'm always open to chat!</p>
+        <p class="section-subtitle">Have a project in mind or want to collaborate? I'd love to hear from you!</p>
       </div>
       <div class="contact-content">
-        <div class="contact-info reveal">
-          <h3 class="contact-heading">Let's build something <span class="gradient-text">cool together</span></h3>
-          <p class="contact-text">I'm open to freelance projects, collaborations, and interesting creative or technical partnerships. Whether you need a website, a game, or just want to geek out about cybersecurity — reach out!</p>
+        <div class="contact-info">
+          <h3 class="contact-heading">Let's build something amazing together</h3>
+          <p class="contact-text">I'm currently open to freelance projects, full-time opportunities, and interesting collaborations. Whether you have a question or just want to say hi, my inbox is always open!</p>
           <div class="contact-items">
             <a href="mailto:tarushagrawal5@gmail.com" class="contact-item" id="contact-email">
               <div class="contact-item-icon"><i class="fas fa-envelope"></i></div>
-              <div class="contact-item-details"><div class="contact-item-label">Email</div><div class="contact-item-value">tarushagrawal5@gmail.com</div></div>
+              <div class="contact-item-details">
+                <div class="contact-item-label">Email</div>
+                <div class="contact-item-value">tarushagrawal5@gmail.com</div>
+              </div>
             </a>
             <a href="https://github.com/Bhaveek08" target="_blank" class="contact-item" id="contact-github">
               <div class="contact-item-icon"><i class="fab fa-github"></i></div>
-              <div class="contact-item-details"><div class="contact-item-label">GitHub</div><div class="contact-item-value">github.com/Bhaveek08</div></div>
+              <div class="contact-item-details">
+                <div class="contact-item-label">GitHub</div>
+                <div class="contact-item-value">github.com/Bhaveek08</div>
+              </div>
             </a>
             <a href="https://linkedin.com/in/bhaveek" target="_blank" class="contact-item" id="contact-linkedin">
               <div class="contact-item-icon"><i class="fab fa-linkedin-in"></i></div>
-              <div class="contact-item-details"><div class="contact-item-label">LinkedIn</div><div class="contact-item-value">linkedin.com/in/bhaveek</div></div>
+              <div class="contact-item-details">
+                <div class="contact-item-label">LinkedIn</div>
+                <div class="contact-item-value">linkedin.com/in/bhaveek</div>
+              </div>
             </a>
-            <div class="contact-item">
+            <div class="contact-item" id="contact-location">
               <div class="contact-item-icon"><i class="fas fa-map-marker-alt"></i></div>
-              <div class="contact-item-details"><div class="contact-item-label">Location</div><div class="contact-item-value">India 🇮🇳</div></div>
+              <div class="contact-item-details">
+                <div class="contact-item-label">Location</div>
+                <div class="contact-item-value">India 🇮🇳</div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="contact-form-wrapper reveal">
+        <div class="contact-form-wrapper">
           <form class="contact-form" id="contact-form" novalidate>
             <div class="form-group">
               <label for="form-name">Your Name</label>
-              <div class="form-input-wrapper"><i class="fas fa-user"></i><input type="text" id="form-name" name="name" placeholder="Your name" required autocomplete="name"/></div>
+              <div class="form-input-wrapper">
+                <i class="fas fa-user"></i>
+                <input type="text" id="form-name" name="name" placeholder="John Doe" required autocomplete="name" />
+              </div>
             </div>
             <div class="form-group">
               <label for="form-email">Your Email</label>
-              <div class="form-input-wrapper"><i class="fas fa-envelope"></i><input type="email" id="form-email" name="email" placeholder="your@email.com" required autocomplete="email"/></div>
+              <div class="form-input-wrapper">
+                <i class="fas fa-envelope"></i>
+                <input type="email" id="form-email" name="email" placeholder="john@example.com" required autocomplete="email" />
+              </div>
             </div>
             <div class="form-group">
               <label for="form-subject">Subject</label>
-              <div class="form-input-wrapper"><i class="fas fa-tag"></i><input type="text" id="form-subject" name="subject" placeholder="What's this about?" required/></div>
+              <div class="form-input-wrapper">
+                <i class="fas fa-tag"></i>
+                <input type="text" id="form-subject" name="subject" placeholder="Project Inquiry" required />
+              </div>
             </div>
             <div class="form-group">
               <label for="form-message">Message</label>
-              <div class="form-input-wrapper textarea-wrapper"><i class="fas fa-comment-alt"></i><textarea id="form-message" name="message" rows="5" placeholder="Tell me about your project or idea..." required></textarea></div>
+              <div class="form-input-wrapper textarea-wrapper">
+                <i class="fas fa-comment-alt"></i>
+                <textarea id="form-message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+              </div>
             </div>
-            <button type="submit" class="btn-primary btn-full" id="submit-btn"><i class="fas fa-paper-plane"></i> Send Message</button>
+            <button type="submit" class="btn-primary btn-full" id="submit-btn">
+              <i class="fas fa-paper-plane"></i> Send Message
+            </button>
             <div class="form-status" id="form-status"></div>
           </form>
         </div>
@@ -1000,13 +575,17 @@
     </div>
   </section>
 
-  <!-- FOOTER -->
+  <!-- Footer -->
   <footer class="footer">
     <div class="footer-content">
       <div class="footer-top">
         <div class="footer-brand">
-          <div class="footer-logo"><span class="logo-bracket">&lt;</span><span class="logo-name">Bhaveek</span><span class="logo-bracket">/&gt;</span></div>
-          <p class="footer-tagline">Student developer. 3D artist. Cybersecurity enthusiast.</p>
+          <div class="footer-logo">
+            <span class="logo-bracket">&lt;</span>
+            <span class="logo-name">Bhaveek</span>
+            <span class="logo-bracket">/&gt;</span>
+          </div>
+          <p class="footer-tagline">Crafting digital experiences with passion & precision.</p>
           <div class="footer-socials">
             <a href="https://github.com/Bhaveek08" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
             <a href="mailto:tarushagrawal5@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
@@ -1016,7 +595,7 @@
         </div>
         <div class="footer-nav">
           <div class="footer-nav-col">
-            <h4>Portfolio</h4>
+            <h4>Navigation</h4>
             <ul>
               <li><a href="#home">Home</a></li>
               <li><a href="#about">About</a></li>
@@ -1025,12 +604,12 @@
             </ul>
           </div>
           <div class="footer-nav-col">
-            <h4>Projects</h4>
+            <h4>More</h4>
             <ul>
-              <li><a href="projects/cyber-runner-game/index.html" target="_blank">Cyber Runner</a></li>
-              <li><a href="projects/neurochat-ai/index.html" target="_blank">NeuroChat AI</a></li>
-              <li><a href="projects/pulse-analytics-dashboard/index.html" target="_blank">Pulse Analytics</a></li>
-              <li><a href="projects/marketmind-bot/index.html" target="_blank">MarketMind Bot</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#education">Education</a></li>
+              <li><a href="#certifications">Certifications</a></li>
+              <li><a href="#contact">Contact</a></li>
             </ul>
           </div>
         </div>
@@ -1040,16 +619,21 @@
           <i class="fas fa-copyright"></i>
           <span id="current-year"></span> Bhaveek. All Rights Reserved.
           <span class="footer-separator">|</span>
-          <span class="footer-built">Made with <i class="fas fa-heart" style="color:#a855f7"></i> & <i class="fas fa-code" style="color:#a855f7"></i></span>
+          <span class="footer-built">Built with <i class="fas fa-heart" style="color:#a855f7"></i> and <i class="fas fa-code" style="color:#a855f7"></i></span>
         </div>
-        <div class="footer-legal">Protected by copyright law. Unauthorized reproduction is prohibited.</div>
+        <div class="footer-legal">
+          <span>Protected by copyright law. Unauthorized reproduction is prohibited.</span>
+        </div>
       </div>
     </div>
   </footer>
 
-  <button id="scroll-top" class="scroll-top-btn" aria-label="Scroll to top"><i class="fas fa-chevron-up"></i></button>
+  <!-- Scroll To Top -->
+  <button id="scroll-top" class="scroll-top-btn" aria-label="Scroll to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
 
-  <!-- CHATBOT -->
+  <!-- AI Chatbot -->
   <div id="chatbot-widget" class="chatbot-widget">
     <button id="chatbot-toggle" class="chatbot-toggle" aria-label="Open AI Assistant">
       <i class="fas fa-robot chatbot-icon-open"></i>
@@ -1058,31 +642,40 @@
     </button>
     <div class="chatbot-window" id="chatbot-window">
       <div class="chatbot-header">
-        <div class="chatbot-avatar"><i class="fas fa-robot"></i><span class="chatbot-status-dot"></span></div>
+        <div class="chatbot-avatar">
+          <i class="fas fa-robot"></i>
+          <span class="chatbot-status-dot"></span>
+        </div>
         <div class="chatbot-header-info">
           <div class="chatbot-name">Bhaveek's AI Assistant</div>
           <div class="chatbot-status">Online · Powered by AI</div>
         </div>
-        <button class="chatbot-close-btn" id="chatbot-close" aria-label="Close"><i class="fas fa-times"></i></button>
+        <button class="chatbot-close-btn" id="chatbot-close" aria-label="Close chatbot">
+          <i class="fas fa-times"></i>
+        </button>
       </div>
       <div class="chatbot-messages" id="chatbot-messages">
         <div class="chatbot-msg bot">
           <div class="msg-avatar"><i class="fas fa-robot"></i></div>
-          <div class="msg-bubble">Hey! 👋 I'm Bhaveek's AI assistant. Ask me about his projects, skills, background, or how to contact him!</div>
+          <div class="msg-bubble">
+            Hi there! 👋 I'm Bhaveek's AI assistant. I can answer questions about his skills, projects, experience, and more. How can I help you today?
+          </div>
         </div>
         <div class="chatbot-suggestions">
           <button class="suggestion-btn" onclick="sendSuggestion(this)">What are your skills?</button>
-          <button class="suggestion-btn" onclick="sendSuggestion(this)">Tell me about projects</button>
-          <button class="suggestion-btn" onclick="sendSuggestion(this)">How to contact?</button>
-          <button class="suggestion-btn" onclick="sendSuggestion(this)">Who are you?</button>
+          <button class="suggestion-btn" onclick="sendSuggestion(this)">Tell me about your projects</button>
+          <button class="suggestion-btn" onclick="sendSuggestion(this)">What's your experience?</button>
+          <button class="suggestion-btn" onclick="sendSuggestion(this)">Tell me about Blender work</button>
         </div>
       </div>
       <div class="chatbot-input-area">
         <div class="chatbot-input-wrapper">
-          <input type="text" id="chatbot-input" placeholder="Ask me anything..." autocomplete="off"/>
-          <button id="chatbot-send" aria-label="Send"><i class="fas fa-paper-plane"></i></button>
+          <input type="text" id="chatbot-input" placeholder="Ask me anything..." autocomplete="off" />
+          <button id="chatbot-send" aria-label="Send message">
+            <i class="fas fa-paper-plane"></i>
+          </button>
         </div>
-        <div class="chatbot-footer-note">Based on Bhaveek's real background</div>
+        <div class="chatbot-footer-note">AI responses are based on Bhaveek's profile</div>
       </div>
     </div>
   </div>

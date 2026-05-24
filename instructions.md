@@ -1,574 +1,465 @@
-# ANTI GRAVITY AI — FULL WEBSITE GENERATION INSTRUCTIONS
+# CLAUDE SONNET 4.6 — PORTFOLIO WEBSITE MODIFICATION INSTRUCTIONS
 
-Build a COMPLETE futuristic premium portfolio website for:
+You are modifying an EXISTING portfolio website project.
 
-Name: Bhaveek Agrawal
+The current portfolio already contains:
+- Hero section
+- Experience section
+- Projects section
+- AI chatbot
+- Dark cyber-glassmorphism design
+- Interactive animations
 
-The website should feel:
+Your task is to IMPROVE and RESTRUCTURE the portfolio to match the REAL background of the developer instead of fake corporate experience.
+
+The website MUST remain:
 - Futuristic
 - Premium
 - Interactive
-- Smooth
-- Cyber-themed
-- Modern
-- Minimal but visually rich
+- Cyberpunk inspired
+- Glassmorphism themed
+- Highly polished
 
-The website MUST leave visitors impressed and surprised by the experience.
+DO NOT reduce visual quality.
 
-The entire website should be built using ONLY:
-- HTML
-- CSS
-- Vanilla JavaScript
-
-DO NOT USE:
-- React
-- Vue
-- Angular
-- Tailwind
-- Bootstrap
-- jQuery
-- External chatbot libraries
-
-The design language should focus heavily on:
-- Cyber-glassmorphism
-- Frosted glass panels
-- Black and dark purple gradients
-- Soft glowing effects
-- Smooth transitions
-- Elegant motion
-- Interactive hover effects
-- Premium UI spacing
-- Blur effects
-- Floating elements
-- Modern typography
-
-The website MUST be:
-- Fully responsive
-- Mobile friendly
-- Optimized for desktop and mobile
-- Smoothly animated
-- Fast loading
+Keep:
+- Existing styling quality
+- Existing animations
+- Existing responsiveness
+- Existing modern UI
 
 --------------------------------------------------
-GLOBAL WEBSITE DESIGN REQUIREMENTS
+IMPORTANT REALISM UPDATE
 --------------------------------------------------
 
-Theme Colors:
-- Black
-- Dark Purple
-- White
-- Soft Gray
+The portfolio owner is:
+- Currently in 12th grade
+- Soon entering first year BCA Cyber Security
+- Has NO corporate work experience
+- Has done:
+  - Freelance projects
+  - Community projects
+  - Friend collaborations
+  - Experimental builds
+  - Personal projects
 
-Visual Style:
-- Glassmorphism
-- Transparent panels
-- Gradient borders
-- Glow effects
-- Ambient lighting
-- Cyberpunk minimalism
+REMOVE:
+- Fake companies
+- Fake internships
+- Fake enterprise metrics
+- Unrealistic production claims
+- Corporate timelines
 
-Background:
-- Animated gradient background
-- Floating particles
-- Grid overlay or subtle cyber lines
-- Smooth animated lighting
-
-Animations:
-- Smooth scroll animations
-- Fade-in sections
-- Hover glow effects
-- Button animations
-- Floating cards
-- Smooth transitions
-- Mouse-interactive glow effects
-
-Scrolling:
-- Smooth scrolling enabled
-- Scroll progress indicator
-- Section reveal animations
-
-Cursor:
-- Custom futuristic cursor optional
-
-Typography:
-- Clean modern fonts
-- Strong visual hierarchy
-- Large hero text
-- Readable body text
-
-Dark/Light Mode:
-- Include a fully working dark/light mode toggle
-- Theme switching should animate smoothly
+The website MUST feel authentic and believable.
 
 --------------------------------------------------
-WEBSITE STRUCTURE
+WORK EXPERIENCE SECTION CHANGES
 --------------------------------------------------
 
-Create the following sections:
+Completely redesign the "Work Experience" section.
 
-1. Hero Section
-2. About Section
-3. Skills Section
-4. Projects Section
-5. 3D Modeling Showcase
-6. Experience Section
-7. Education Section
-8. Achievements Section
-9. Contact Section
-10. AI Assistant Chatbot
-11. Footer
+Replace fake company jobs with realistic experience cards.
+
+NEW EXPERIENCE SECTION CONTENT:
 
 --------------------------------------------------
-HERO SECTION
+CARD 1
 --------------------------------------------------
 
-Hero section MUST contain:
-- Large animated intro text
-- Name:
-  "Bhaveek Agrawal"
+Title:
+Freelance Developer & 3D Artist
 
-Role text examples:
-- Cyber Security Enthusiast
-- Web Developer
-- App Developer
-- 3D Artist
-- Game Developer
+Duration:
+2023 - Present
 
-Add animated rotating role text.
+Description:
+Worked with online communities, friends, and freelance clients on small-scale web development, 3D modeling, UI concepts, and experimental software projects. Focused on learning through real-world collaboration and continuous improvement.
 
-Hero Description:
-"I build immersive digital experiences through web development, app development, 3D modeling, and cybersecurity exploration."
-
-Suggested tagline:
-"Curiosity turned into creation."
-
-Hero Buttons:
-- Contact Me
-- View Projects
-- Skills
-- Hire Me
-
-Include:
-- Profile photo placeholder
-- Animated glowing border around profile image
-- Floating UI cards around hero section
-
-Social Links:
-- LinkedIn
-- GitHub
-- Email
-- Sketchfab
-
-Hero section should feel cinematic and premium.
-
---------------------------------------------------
-ABOUT SECTION
---------------------------------------------------
-
-Tone:
-- Casual
-- Personal
-- Authentic
-
-Content inspiration:
-- Started programming after hearing about a kid building something in Python in 6th grade
-- Explored:
-  - Python
-  - Web development
-  - Minecraft modding
-  - Game development
-  - App development
-  - Ethical hacking
-
-Explain:
-- Curiosity drives learning
-- Passion for endless possibilities in technology
-- Interest in hackathons
-- Interest in building real projects
-
-Add animated timeline/cards for journey.
-
---------------------------------------------------
-SKILLS SECTION
---------------------------------------------------
-
-Create futuristic animated skill cards.
-
-Skills to include:
-
-Languages:
+Skills:
 - JavaScript
+- Blender
+- HTML/CSS
+- Node.js
+- UI Design
+
+Badge:
+Freelance
+
+--------------------------------------------------
+CARD 2
+--------------------------------------------------
+
+Title:
+Community Project Collaborator
+
+Duration:
+2022 - Present
+
+Description:
+Collaborated with friends and online developers on experimental apps, mini games, Discord-related tools, and creative coding projects. Learned version control, debugging, teamwork, and rapid prototyping.
+
+Skills:
 - Python
-- Java
+- GitHub
+- JavaScript
+- Game Development
+- Problem Solving
+
+Badge:
+Community
+
+--------------------------------------------------
+CARD 3
+--------------------------------------------------
+
+Title:
+Self-Taught Developer Journey
+
+Duration:
+2020 - Present
+
+Description:
+Started learning programming after discovering Python development in middle school. Explored web development, ethical hacking, game development, Minecraft modding, app development, and AI tools through curiosity-driven experimentation.
+
+Skills:
+- Python
+- Cyber Security
+- Web Development
+- AI/ML
+- Blender
+
+Badge:
+Learning
+
+--------------------------------------------------
+PROJECTS SECTION — MAJOR REBUILD
+--------------------------------------------------
+
+THIS IS THE MOST IMPORTANT PART.
+
+The projects section should become:
+- More realistic
+- More impressive
+- More interactive
+- More technical
+- More personal
+
+Claude MUST:
+- Create ACTUAL WORKING PROJECTS
+- Generate REAL folders inside the portfolio directory
+- Create complete source code for every project
+- Initialize Git repositories
+- Push projects to GitHub
+- Use REAL GitHub links in portfolio cards
+
+Each project MUST:
+- Be functional
+- Be polished
+- Have proper README files
+- Have screenshots/placeholders
+- Have clean folder structures
+- Be beginner/intermediate realistic
+- Still look impressive visually
+
+DO NOT create fake placeholder projects.
+
+--------------------------------------------------
+PROJECT REQUIREMENTS
+--------------------------------------------------
+
+Create MULTIPLE REAL PROJECTS.
+
+Each project MUST have:
+- Dedicated folder
+- Dedicated GitHub repository
+- README.md
+- Source code
+- Preview image placeholder
+- Proper project description
+- Realistic technologies
+- Functional UI
+
+--------------------------------------------------
+PROJECT #1 — CYBER RUNNER GAME
+--------------------------------------------------
+
+Type:
+Game Development Project
+
+Project Name:
+Cyber Runner
+
+Description:
+A futuristic endless runner browser game built using HTML, CSS, and JavaScript. The player controls a cyber-themed character that dodges obstacles, collects energy orbs, and survives increasingly difficult levels.
+
+Features:
+- Infinite runner mechanics
+- Score system
+- Difficulty scaling
+- Keyboard controls
+- Particle effects
+- Neon cyber UI
+- Sound effects
+- Pause/restart system
+- Responsive canvas
+
+Technologies:
+- HTML5 Canvas
+- Vanilla JavaScript
+- CSS animations
+
+Repository Name:
+cyber-runner-game
+
+Portfolio Category:
+Game Development
+
+--------------------------------------------------
+PROJECT #2 — AI CHATBOT
+--------------------------------------------------
+
+Type:
+AI / Web Development
+
+Project Name:
+NeuroChat AI
+
+Description:
+A futuristic AI-inspired chatbot interface capable of handling basic conversation flows, intent matching, and dynamic UI interactions. Designed with cyber-glassmorphism aesthetics and smooth animations.
+
+Features:
+- Chat UI
+- Typing animation
+- Regex intent detection
+- Dynamic responses
+- Theme switching
+- Smooth animations
+- Scrollable history
+- Mobile responsive
+
+Technologies:
+- JavaScript
 - HTML
 - CSS
-- C#
-- C
-- Swift
 
-Backend:
-- Node.js
+Repository Name:
+neurochat-ai
 
-Cloud:
-- AWS
-
-Fields:
-- Web Development
-- App Development
-- 3D Modeling
-- Game Development
-- AI/ML
-- UI/UX
-
-Experience Level:
-- Intermediate
-
-Add:
-- Hover glow effects
-- Animated progress indicators
-- Interactive cards
+Portfolio Category:
+AI/ML
 
 --------------------------------------------------
-PROJECTS SECTION
+PROJECT #3 — ANALYTICS DASHBOARD
 --------------------------------------------------
 
-Create premium project showcase cards.
+Type:
+Analytics / Data Visualization
 
-Add placeholder projects with editable structure.
+Project Name:
+Pulse Analytics
 
-Project categories:
-- Web Development
-- App Development
-- 3D Modeling
-- Cyber Security
-- Game Development
+Description:
+A modern analytics dashboard that visualizes fake business metrics and user statistics through interactive charts and data cards.
 
-Each project card should contain:
-- Thumbnail
-- Project title
-- Description
-- Tech stack
-- GitHub button
-- Live demo button
-- Animated hover effects
+Features:
+- Animated charts
+- Revenue tracking
+- User growth graphs
+- Responsive dashboard
+- Theme switching
+- Interactive widgets
+- Dynamic metric cards
 
-Include filtering system:
-- All
-- Web
-- Apps
-- 3D
-- Games
-- Cyber
+Technologies:
+- Chart.js
+- JavaScript
+- HTML/CSS
 
-Use smooth filtering animations.
+Repository Name:
+pulse-analytics-dashboard
 
---------------------------------------------------
-3D MODELING SHOWCASE
---------------------------------------------------
-
-This section should feel highly visual.
-
-Include:
-- Large preview cards
-- Sketchfab integration placeholder
-- Floating 3D-style UI effects
-- Glow borders
-- Interactive hover movement
-
-Mention:
-- 4 years of Blender experience
+Portfolio Category:
+Analytics
 
 --------------------------------------------------
-EXPERIENCE SECTION
+PROJECT #4 — MARKET BOT
 --------------------------------------------------
 
-Freelance experience only.
+Type:
+Automation / Trading Simulation
 
-Content:
-- Freelance work via Discord clients
-- Web development
-- 3D modeling
-- Custom digital work
+Project Name:
+MarketMind Bot
 
-Display as:
-- Interactive timeline
-- Floating glass cards
+Description:
+A simulated crypto and stock market tracking bot that displays live-style market updates, trend indicators, and automated trading insights using generated data.
 
---------------------------------------------------
-EDUCATION SECTION
---------------------------------------------------
+Features:
+- Fake live market feed
+- Trend indicators
+- Buy/sell simulation
+- Animated dashboard
+- Cyber terminal UI
+- Market cards
+- Portfolio simulation
 
-Education:
-- MIT-WPU
-- BCA Cyber Security
-- Starting first year soon
+Technologies:
+- JavaScript
+- APIs or simulated data
+- HTML/CSS
 
-Future interests:
-- Drone Engineering
+Repository Name:
+marketmind-bot
 
-Achievements:
-- MIT-WPU summer camp certificate
-- App development
-- AI chatbot development
-
-Use:
-- Animated cards
-- Timeline UI
+Portfolio Category:
+Automation
 
 --------------------------------------------------
-CONTACT SECTION
+PROJECT #5 — PORTFOLIO ASSISTANT
 --------------------------------------------------
 
-This section MUST be premium.
+Type:
+Interactive AI UI
 
-Include:
-- Working contact form
-- Name input
-- Email input
-- Message input
-- Animated send button
+Project Name:
+Portfolio Assistant
 
-Contact Email:
-Tarushagrawal5@gmail.com
+Description:
+An advanced floating assistant built specifically for the portfolio website. It answers visitor questions, navigates website sections automatically, and enhances interaction.
 
-Add:
-- Smooth input animations
-- Glow focus effects
-- Success/error UI states
-
---------------------------------------------------
-AI ASSISTANT CHATBOT
---------------------------------------------------
-
-Build a floating AI-style assistant chat window that:
-
-- Accepts user questions
-- Displays user messages dynamically
-- Generates instant responses
-- Detects intent using regex keyword matching
-- Automatically scrolls to relevant website sections
-- Maintains a futuristic cyber-glassmorphism appearance
-
-The chatbot should feel:
-- Modern
-- Premium
-- Interactive
-- Minimal
-- Smooth
-- Intelligent
-
---------------------------------------------------
-CHATBOT POSITIONING
---------------------------------------------------
-
-The chat window MUST be:
-- Fixed to the bottom-right corner
-- Responsive on mobile and desktop
-- Always visible above content
-
-Use styling similar to:
-
-position: fixed;
-bottom: 20px;
-right: 20px;
-z-index: 9999;
-
---------------------------------------------------
-CHATBOT DESIGN REQUIREMENTS
---------------------------------------------------
-
-The chatbot MUST match the website theme:
-- Black-and-white gradients
-- Cyber-glassmorphism styling
-- Frosted glass effect
-- Transparent panels
-- Blur effects
-- Soft glowing borders
-- Smooth hover animations
-
---------------------------------------------------
-CHATBOT UI COMPONENTS
---------------------------------------------------
-
-1. Header
-Include:
-- Bot title
-- Online status indicator
-- Minimize button
-
-Suggested titles:
-- AI Assistant
-- Portfolio Bot
-- Cyber Assistant
-
-2. Chat Messages Area
-Requirements:
-- Display user and bot messages
-- Different bubble styles
-- Auto-scroll to newest message
+Features:
+- Regex AI responses
+- Auto-scroll navigation
+- Dynamic message rendering
 - Smooth animations
+- Floating cyber UI
+- Mobile responsive
 
-Bot messages:
-- Left aligned
+Technologies:
+- JavaScript
+- HTML/CSS
 
-User messages:
-- Right aligned
+Repository Name:
+portfolio-assistant
 
-3. Input Area
-Include:
-- Text input
-- Send button
-- Enter key support
-
-Input area should stay fixed inside chatbot.
+Portfolio Category:
+AI Interface
 
 --------------------------------------------------
-CHATBOT JAVASCRIPT FEATURES
+PROJECT #6 — 3D MODEL SHOWCASE
 --------------------------------------------------
 
-The chatbot logic MUST:
-- Read user input
-- Append user messages
-- Generate instant responses
-- Append bot responses dynamically
-- Auto-scroll messages container
-- Detect questions using regex keyword matching
+Type:
+3D Modeling
+
+Project Name:
+Neo3D Showcase
+
+Description:
+A premium gallery-style website showcasing Blender renders, environment designs, hard-surface modeling, and experimental 3D concepts.
+
+Features:
+- Interactive gallery
+- Hover tilt effects
+- Fullscreen preview
+- Animated transitions
+- Cyberpunk styling
+
+Technologies:
+- HTML/CSS
+- JavaScript
+- Blender renders
+
+Repository Name:
+neo3d-showcase
+
+Portfolio Category:
+3D Design
 
 --------------------------------------------------
-REGEX INTENT DETECTION
+GITHUB AUTOMATION REQUIREMENTS
 --------------------------------------------------
 
-The chatbot MUST intelligently detect variations of questions.
+Claude MUST:
+- Create folders for every project
+- Generate working code
+- Generate README.md files
+- Initialize Git repositories
+- Commit code properly
+- Push each project to GitHub
+- Use REAL repository links in portfolio cards
 
-Do NOT only match exact phrases.
-
-Use flexible regex and keyword matching.
-
-The chatbot should understand questions like:
-- "What skills do you have?"
-- "Tell me about your skills"
-- "What technologies do you know?"
-- "What are your projects?"
-- "Tell me about yourself"
-- "Who are you?"
-- "What have you built?"
-- "Show me your work"
-
-and many similar variants.
-
-The chatbot should:
-- Reply naturally
-- Guide users
-- Scroll to relevant sections automatically
+Repository quality MUST look real and professional.
 
 --------------------------------------------------
-CHATBOT ANIMATIONS
+README REQUIREMENTS
 --------------------------------------------------
 
-Add:
-- Fade-in messages
-- Hover transitions
-- Button animations
-- Smooth expand effects
-
-Animations should feel:
-- Modern
-- Smooth
-- Premium
+Every repository README MUST include:
+- Project title
+- Features
+- Installation instructions
+- Screenshots section
+- Technologies used
+- Future improvements
+- Author section
 
 --------------------------------------------------
-RESPONSIVENESS REQUIREMENTS
+PORTFOLIO PROJECT CARDS
 --------------------------------------------------
 
-The ENTIRE website MUST work perfectly on:
-- Desktop
-- Laptop
-- Tablet
-- Mobile
+Update the portfolio cards to:
+- Use REAL GitHub repo links
+- Use REAL descriptions
+- Use REAL technologies
+- Use REAL screenshots/placeholders
 
-Ensure:
-- No overflow issues
-- Responsive layouts
-- Proper spacing
-- Mobile-friendly navigation
-- Mobile-friendly chatbot
-
---------------------------------------------------
-ACCESSIBILITY REQUIREMENTS
---------------------------------------------------
-
-Ensure:
-- Keyboard support
-- Enter key submission
-- Readable contrast
-- Proper focus states
+Cards should contain:
+- Animated hover effects
+- Glow borders
+- Interactive transitions
+- Live preview button
+- GitHub button
 
 --------------------------------------------------
-ADVANCED WEBSITE FEATURES
+UI IMPROVEMENTS
 --------------------------------------------------
 
-Add:
-- Smooth section transitions
-- Scroll-triggered animations
-- Floating UI effects
-- Interactive hover reactions
-- Loading animation
-- Animated navbar
-- Sticky navigation
-- Active section highlighting
-- Reveal-on-scroll effects
-- Animated glowing buttons
-- Mouse parallax effects
-- Ambient cyber lighting
+Enhance:
+- Hover interactions
+- Loading transitions
+- Card depth
+- Scroll animations
+- Mouse movement effects
+- Ambient lighting
 
---------------------------------------------------
-NAVBAR REQUIREMENTS
---------------------------------------------------
-
-Navbar should:
-- Be transparent initially
-- Become blurred on scroll
-- Have animated underline hover effects
-- Include:
-  - Home
-  - About
-  - Skills
-  - Projects
-  - Experience
-  - Contact
-
-Mobile:
-- Hamburger menu
-- Smooth mobile transitions
-
---------------------------------------------------
-FOOTER
---------------------------------------------------
-
-Footer should include:
-- Social links
-- Copyright
-- Smooth hover effects
-- Minimal cyber style
-
---------------------------------------------------
-FINAL WEBSITE GOAL
---------------------------------------------------
-
-The final website should feel:
-- Like a premium modern cyberpunk portfolio
+Projects section should feel:
 - Highly interactive
-- Smooth and immersive
+- Modern
+- Premium
+- Technically impressive
+
+--------------------------------------------------
+IMPORTANT
+--------------------------------------------------
+
+DO NOT:
+- Use fake enterprise claims
+- Use unrealistic experience
+- Use copied boilerplate projects
+- Use placeholder lorem ipsum descriptions
+
+DO:
+- Make projects realistic for a skilled student developer
+- Make repositories actually usable
+- Make UI highly polished
+- Focus heavily on presentation quality
+
+The final portfolio should feel:
+- Honest
+- Creative
+- Technical
 - Visually impressive
-- Professional enough for recruiters
-- Unique enough to stand out immediately
-
-The website should make visitors think:
-"This developer is highly creative and technically skilled."
-
-Generate:
-- Complete HTML
-- Complete CSS
-- Complete JavaScript
-
-Ensure everything is production-quality and fully functional.
+- Unique
+- Recruiter-friendly
+- Realistic for an ambitious student developer
